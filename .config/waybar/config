@@ -1,0 +1,97 @@
+{
+	"layer": "top",
+	"position": "top",
+	"output": "DP-1",
+	"width": "1920",
+	"height": "25",
+
+	"modules-left": [
+		"sway/workspaces",
+		"sway/window"
+	],
+	"modules-center": [
+
+	],
+	"modules-right": [
+		"network",
+		"pulseaudio",
+		"clock",
+		"custom/powermenu"
+	],
+
+	"sway/workspaces": {
+		"disable-scroll": true,
+		"format": "{name}",
+		"all-outputs": true
+	},
+
+	"sway/window": {
+		"format": "{}"
+	},
+	
+	"clock": {
+		"format": " {:%a %d %b       %H:%M}",
+		"tooltip": "false"
+	},
+
+	"pulseaudio": {
+		"format": "{icon} {volume}%",
+		"format-muted": "MUTE",
+		"format-icons": {
+			"headphones": "",
+			"default": [
+				"",
+				""
+			]
+		},
+		"scroll-step": 5,
+		"on-click": "pamixer -t",
+		"on-click-right": "pavucontrol"
+	},
+	
+	"memory": {
+		"interval": 5,
+		"format": " {percentage}%"
+	},
+	
+	"cpu": {
+	    "interval": 5,
+		"format": " {usage}%"
+	},
+	
+	"battery": {
+		"states": {
+			"good": 95,
+			"warning": 30,
+			"critical": 15
+		},
+		"format": "{icon} {capacity}%",
+		"format-icons": [
+			"",
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	
+    "temperature": {
+        "interval": 5,
+	    "format": " {temperatureC}°C"
+    },
+    
+    "network": {
+    "interface": "enp0s20f0u6",
+    "format": "{ifname}",
+    "format-wifi": " {essid}",
+    "format-ethernet": " WaiFai",
+    "format-disconnected": "", //An empty format will hide the module.
+    "max-length": 50
+    },
+
+  "custom/powermenu":{ 
+     "format":"", 
+     "on-click": "shutdown-menu"
+     }
+
+}

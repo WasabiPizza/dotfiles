@@ -1,0 +1,148 @@
+[colors]
+background = #0f1217
+background-alt = #444
+foreground = #f7eef5
+foreground-alt = #555
+primary = #ffb52a
+secondary = #e60053
+alert = #bd2c40
+
+[bar/info]
+monitor = DP-1 
+width = 260
+height = 33
+offset-x = 100%:-270
+offset-y = 10
+fixed-center = true 
+override-redirect = true 
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+padding-left = 0
+padding-right = 0
+
+module-margin-left = 1
+module-margin-right = 2
+
+font-0 = Roboto:style=Bold:size=10;2
+font-1 = FontAwesome5Free:style=Solid:size=10;1
+
+modules-left = 
+modules-center = pulseaudio date menu 
+modules-right = 
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+[bar/workspaces]
+monitor = DP-1 
+width = 90
+height = 33
+offset-x = 100%:-370
+offset-y = 10
+fixed-center = true 
+override-redirect = true 
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+padding-left = 0
+padding-right = 0
+
+module-margin-left = 1
+module-margin-right = 2
+
+font-0 = Roboto:style=Bold:size=10;2
+
+modules-left = 
+modules-center = workspaces 
+modules-right = 
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+[bar/windows]
+monitor = DisplayPort-1 
+width = 1000
+height = 33
+offset-x = 100%:-1700
+offset-y = 10
+fixed-center = true 
+override-redirect = true 
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+padding-left = 0
+padding-right = 0
+
+module-margin-left = 1
+module-margin-right = 2
+
+font-0 = Roboto:style=Bold:size=10;2
+font-1 = Noto Sans CJK JP:style=Bold:size:10;2
+
+modules-left = 
+modules-center = polywins 
+modules-right = 
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+[module/workspaces]
+type = internal/xworkspaces
+pin-workspaces = false
+
+label-active = %name% 
+label-active-padding = 1
+
+label-empty = %name%
+label-empty-padding = 1
+
+label-empty-foreground = #3E4145
+
+enable-click = true
+enable-scroll = true
+
+[module/date]
+type = internal/date
+interval = 5
+
+label = %date% %time%
+date = %{F#f2db55} %{F-}  %a, %b %d 
+time = %{F#6b90c5} %{F-}  %H:%M
+
+[module/pulseaudio]
+type = internal/pulseaudio
+
+use-ui-max = false
+sink = alsa_output.usb-Focusrite_Scarlett_2i2_USB-00.analog-stereo
+
+label-volume = %{F#88bd8d}%{F-}  %percentage%%
+label-muted =  muted
+label-muted-foreground = #666
+
+[module/menu]
+type = custom/script
+
+exec = echo %{F#ff8080}%{F-}
+click-left = $HOME/.local/bin/global-menu.sh
+format-padding = 1
+
+[module/sep]
+type = custom/text
+content = "| "
+
+content-background = #1d1f2110 
+content-foreground = #1d1f2110 
+content-padding = 0
+
+[module/polywins]
+type = custom/script
+exec = ~/scripts/polywins.sh 2>/dev/null
+
+format = <label>
+label = %output%
+label-padding = 1
+interval = .5

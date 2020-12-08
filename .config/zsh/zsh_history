@@ -1,0 +1,9 @@
+vim .zshenv
+sudoedit /etc/pacman.conf
+sudo pacman -Rs vim
+sudo pacman -Rs vim
+vim
+neovim .config/zsh/.zshrc
+nvim .config/zsh/.zshrc
+nvim .config/zsh/.zshrc
+exit

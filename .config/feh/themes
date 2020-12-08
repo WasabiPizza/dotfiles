@@ -1,0 +1,1 @@
+feh -B black --scale-down --zoom max -S filename --version-sort --info ;

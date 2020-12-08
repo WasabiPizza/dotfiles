@@ -1,0 +1,30 @@
+_rofi () {
+	    rofi -i -no-auto-select -theme theme-noico.rasi "$@"
+}
+
+_pwgen () {
+	        pwgen -y "$@"
+}
+
+_image_viewer () {
+	    feh -
+}
+
+delay=2
+wait=0.2
+
+EDITOR='vim -f'
+BROWSER='chromium'
+
+URL_field='url'
+USERNAME_field='user'
+AUTOTYPE_field='autotype'
+
+default_do='menu'
+auto_enter='false'
+default_autotype='user :tab pass'
+
+clip=primary
+clip_clear=45
+
+edit_new_pass="true"

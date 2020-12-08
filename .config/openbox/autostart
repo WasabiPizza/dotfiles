@@ -1,0 +1,4 @@
+#~/.config/polybar/launch.sh &
+tint2 &
+#hsetroot -solid '#d7c1c1' &
+~/.fehbg &

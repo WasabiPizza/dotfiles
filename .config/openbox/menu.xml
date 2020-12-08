@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/3.4/menu">
+	<menu id="root-menu" label="New Menu">
+		<item label="reconfigure">
+			<action name="Reconfigure"/>
+		</item>
+		<separator/>
+		<item label="logout">
+			<action name="Exit"/>
+		</item>
+		<item label="reboot">
+			<action name="Execute">
+				<execute>loginctl reboot</execute>
+			</action>
+		</item>
+		<item label="shutdown">
+			<action name="Execute">
+				<execute>loginctl poweroff</execute>
+			</action>
+		</item>
+	</menu>
+</openbox_menu>

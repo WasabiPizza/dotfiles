@@ -1,0 +1,37 @@
+#! /bin/sh
+killall -q -9 sxhkd redshift polybar
+
+sxhkd &
+~/.config/polybar/launch.sh &
+xsetroot -cursor_name left_ptr &
+~/scripts/bspwm_floating.sh &
+redshift &
+
+bspc monitor DisplayPort-0 -d 1 2 3  
+bspc monitor HDMI-A-0 -d 4 5 
+bspc monitor DVI-D-0 -d 6 
+
+bspc config border_width         0
+bspc config window_gap           5
+#bspc config -m DisplayPort-0 top_padding 35
+bspc config bottom_padding       0
+bspc config right_padding        0
+bspc config left_padding         0
+
+bspc config split_ratio              0.50
+bspc config single_monocle           true
+bspc config borderless_monocle       true
+bspc config gapless_monocle          true
+
+bspc config focus_follows_pointer    true
+bspc config pointer_modifier mod1
+
+bspc config normal_border_color    "#eeeeee"
+bspc config active_border_color    "#000000"
+bspc config focused_border_color   "#000000"
+bspc config presel_feedback_color  "#eeeeee"
+
+bspc rule -a Chromium          desktop='^4'
+
+sleep 1
+dunstify "Hello" "bpwmrc loaded"

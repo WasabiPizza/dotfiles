@@ -1,0 +1,14 @@
+font=Roboto 11
+background-color=#141414
+text-color=#ffffff
+#padding=20,20,20,20
+icon-path=path:/usr/share/icons/Papirus-Dark/
+#border-radius=3
+border-size=4
+#max-icon-size=32
+border-color=#707071
+#padding=15,10,15,10
+margin=20,20
+#width=250
+default-timeout=5000
+output=DP-1

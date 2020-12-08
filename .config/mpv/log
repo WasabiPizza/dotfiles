@@ -1,0 +1,1685 @@
+[   0.005][v][cplayer] mpv 0.33.0 Copyright © 2000-2020 mpv/MPlayer/mplayer2 projects
+[   0.005][v][cplayer]  built on UNKNOWN
+[   0.005][v][cplayer] FFmpeg library versions:
+[   0.005][v][cplayer]    libavutil       56.51.100
+[   0.005][v][cplayer]    libavcodec      58.91.100
+[   0.005][v][cplayer]    libavformat     58.45.100
+[   0.005][v][cplayer]    libswscale      5.7.100
+[   0.005][v][cplayer]    libavfilter     7.85.100
+[   0.005][v][cplayer]    libswresample   3.7.100
+[   0.005][v][cplayer] FFmpeg version: n4.3.1
+[   0.005][v][cplayer] 
+[   0.005][v][cplayer] Configuration: /usr/bin/waf configure --prefix=/usr --confdir=/etc/mpv --enable-cdda --enable-dvb --enable-dvdnav --enable-libarchive --enable-libmpv-shared --disable-build-date
+[   0.005][v][cplayer] List of enabled features: 52arch alsa asm caca cdda cplayer cplugins cuda-hwaccel cuda-interop debug-build drm dvbin dvdnav egl egl-drm egl-helpers egl-x11 ffmpeg ffnvcodec gbm gbm.h gl gl-wayland glibc-thread-name glob glob-posix gpl iconv jack javascript jpeg lcms2 libarchive libass libavdevice libbluray libdl libm libmpv-shared libplacebo librt linux-fstatfs linux-input-event-codes lua memfd_create optimize plain-gl posix posix-or-mingw pthreads pulse rubberband shaderc shaderc-shared stdatomic uchardet vaapi vaapi-drm vaapi-egl vaapi-vulkan vaapi-wayland vaapi-x-egl vaapi-x11 vdpau vt.h vulkan wayland wayland-protocols x11 xv zlib
+[   0.005][d][osc] Loading lua script @osc.lua...
+[   0.005][d][ytdl_hook] Loading lua script @ytdl_hook.lua...
+[   0.005][d][stats] Loading lua script @stats.lua...
+[   0.005][d][console] Loading lua script @console.lua...
+[   0.005][d][auto_profiles] Loading lua script @auto_profiles.lua...
+[   0.005][d][osc] loading mp.defaults
+[   0.005][d][global] config path: 'scripts' -/-> '/home/nero/.config/mpv/scripts'
+[   0.005][d][global] config path: 'scripts' -/-> '/home/nero/.mpv/scripts'
+[   0.005][d][global] config path: 'scripts' -/-> '/etc/mpv/scripts'
+[   0.005][v][cplayer] Waiting for scripts...
+[   0.005][d][ytdl_hook] loading mp.defaults
+[   0.005][d][stats] loading mp.defaults
+[   0.006][d][osc] loading @osc.lua
+[   0.006][d][ytdl_hook] loading @ytdl_hook.lua
+[   0.006][d][stats] loading @stats.lua
+[   0.006][d][console] loading mp.defaults
+[   0.007][d][auto_profiles] loading mp.defaults
+[   0.007][d][console] loading @console.lua
+[   0.007][d][ytdl_hook] reading options for ytdl_hook 
+[   0.007][d][global] config path: 'script-opts/ytdl_hook.conf' -/-> '/home/nero/.config/mpv/script-opts/ytdl_hook.conf'
+[   0.007][d][global] config path: 'script-opts/ytdl_hook.conf' -/-> '/home/nero/.mpv/script-opts/ytdl_hook.conf'
+[   0.007][d][global] config path: 'script-opts/ytdl_hook.conf' -/-> '/etc/mpv/script-opts/ytdl_hook.conf'
+[   0.007][d][ytdl_hook] script-opts/ytdl_hook.conf not found. 
+[   0.007][d][global] config path: 'lua-settings/ytdl_hook.conf' -/-> '/home/nero/.config/mpv/lua-settings/ytdl_hook.conf'
+[   0.007][d][global] config path: 'lua-settings/ytdl_hook.conf' -/-> '/home/nero/.mpv/lua-settings/ytdl_hook.conf'
+[   0.007][d][global] config path: 'lua-settings/ytdl_hook.conf' -/-> '/etc/mpv/lua-settings/ytdl_hook.conf'
+[   0.007][d][ytdl_hook] lua-settings/ytdl_hook.conf not found. 
+[   0.007][d][auto_profiles] loading @auto_profiles.lua
+[   0.008][d][stats] reading options for stats 
+[   0.008][d][global] config path: 'script-opts/stats.conf' -/-> '/home/nero/.config/mpv/script-opts/stats.conf'
+[   0.008][d][global] config path: 'script-opts/stats.conf' -/-> '/home/nero/.mpv/script-opts/stats.conf'
+[   0.008][d][global] config path: 'script-opts/stats.conf' -/-> '/etc/mpv/script-opts/stats.conf'
+[   0.008][d][stats] script-opts/stats.conf not found. 
+[   0.008][d][global] config path: 'lua-settings/stats.conf' -/-> '/home/nero/.config/mpv/lua-settings/stats.conf'
+[   0.008][d][global] config path: 'lua-settings/stats.conf' -/-> '/home/nero/.mpv/lua-settings/stats.conf'
+[   0.008][d][global] config path: 'lua-settings/stats.conf' -/-> '/etc/mpv/lua-settings/stats.conf'
+[   0.008][d][stats] lua-settings/stats.conf not found. 
+[   0.009][d][osc] reading options for osc 
+[   0.009][d][global] config path: 'script-opts/osc.conf' -/-> '/home/nero/.config/mpv/script-opts/osc.conf'
+[   0.009][d][global] config path: 'script-opts/osc.conf' -/-> '/home/nero/.mpv/script-opts/osc.conf'
+[   0.009][d][global] config path: 'script-opts/osc.conf' -/-> '/etc/mpv/script-opts/osc.conf'
+[   0.009][d][osc] script-opts/osc.conf not found. 
+[   0.009][d][global] config path: 'lua-settings/osc.conf' -/-> '/home/nero/.config/mpv/lua-settings/osc.conf'
+[   0.009][d][global] config path: 'lua-settings/osc.conf' -/-> '/home/nero/.mpv/lua-settings/osc.conf'
+[   0.009][d][global] config path: 'lua-settings/osc.conf' -/-> '/etc/mpv/lua-settings/osc.conf'
+[   0.009][d][osc] lua-settings/osc.conf not found. 
+[   0.009][d][auto_profiles] Exiting...
+[   0.009][d][console] reading options for console 
+[   0.009][d][global] config path: 'script-opts/console.conf' -/-> '/home/nero/.config/mpv/script-opts/console.conf'
+[   0.009][d][global] config path: 'script-opts/console.conf' -/-> '/home/nero/.mpv/script-opts/console.conf'
+[   0.009][d][global] config path: 'script-opts/console.conf' -/-> '/etc/mpv/script-opts/console.conf'
+[   0.009][d][console] script-opts/console.conf not found. 
+[   0.009][d][global] config path: 'lua-settings/console.conf' -/-> '/home/nero/.config/mpv/lua-settings/console.conf'
+[   0.009][d][global] config path: 'lua-settings/console.conf' -/-> '/home/nero/.mpv/lua-settings/console.conf'
+[   0.009][d][global] config path: 'lua-settings/console.conf' -/-> '/etc/mpv/lua-settings/console.conf'
+[   0.009][d][console] lua-settings/console.conf not found. 
+[   0.010][d][cplayer] Run command: define-section, flags=64, args=[name="showhide", contents="mouse_move script-binding osc/__keybinding1\nmouse_leave script-binding osc/__keybinding2\n", flags="force"]
+[   0.010][d][cplayer] Run command: define-section, flags=64, args=[name="showhide_wc", contents="mouse_move script-binding osc/__keybinding3\nmouse_leave script-binding osc/__keybinding4\n", flags="force"]
+[   0.010][d][cplayer] Run command: enable-section, flags=64, args=[name="showhide", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.010][d][cplayer] Run command: enable-section, flags=64, args=[name="showhide_wc", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.010][d][cplayer] Run command: define-section, flags=64, args=[name="input", contents="mbtn_left script-binding osc/__keybinding5\nshift+mbtn_left script-binding osc/__keybinding6\nmbtn_right script-binding osc/__keybinding7\nmbtn_mid script-binding osc/__keybinding8\nwheel_up script-binding osc/__keybinding9\nwheel_down script-binding osc/__keybinding10\nmbtn_left_dbl ignore\nshift+mbtn_left_dbl ignore\nmbtn_right_dbl ignore\n", flags="force"]
+[   0.010][d][cplayer] Run command: enable-section, flags=64, args=[name="input", flags=""]
+[   0.010][d][cplayer] Run command: define-section, flags=64, args=[name="window-controls", contents="mbtn_left script-binding osc/__keybinding11\n", flags="force"]
+[   0.010][d][cplayer] Run command: enable-section, flags=64, args=[name="window-controls", flags=""]
+[   0.010][d][cplayer] Run command: disable-section, flags=64, args=[name="input"]
+[   0.010][d][cplayer] Run command: disable-section, flags=64, args=[name="window-controls"]
+[   0.010][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[   0.010][v][cplayer] Set property: shared-script-properties -> 1
+[   0.010][d][cplayer] Run command: define-section, flags=64, args=[name="input_console", contents="", flags="default"]
+[   0.010][d][cplayer] Run command: define-section, flags=64, args=[name="input_stats", contents="i script-binding stats/display-stats\nI script-binding stats/display-stats-toggle\n", flags="default"]
+[   0.010][d][cplayer] Run command: enable-section, flags=64, args=[name="input_console", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.010][d][cplayer] Run command: enable-section, flags=64, args=[name="input_stats", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.010][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_stats", contents="", flags="force"]
+[   0.010][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_console", contents="", flags="force"]
+[   0.010][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_console", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.010][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_stats", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.010][v][cplayer] Done loading scripts.
+[   0.010][d][osc] osc_init 
+[   0.010][d][global] config path: 'watch_later' -> '/home/nero/.config/mpv/watch_later'
+[   0.010][v][cplayer] Running hook: ytdl_hook/on_load
+[   0.010][v][ytdl_hook] ytdl:// hook 
+[   0.010][v][ytdl_hook] not a ytdl:// url 
+[   0.010][d][global] config path: 'fonts' -/-> '/home/nero/.config/mpv/fonts'
+[   0.010][d][global] config path: 'fonts' -/-> '/home/nero/.mpv/fonts'
+[   0.010][d][global] config path: 'fonts' -/-> '/etc/mpv/fonts'
+[   0.010][d][osd/libass] ASS library version: 0x1500000 (runtime 0x1500000)
+[   0.010][v][ifo_dvdnav] Opening /home/nero/stuff/Torrents/Midnight.Diner.Tokyo.Stories.S01.JAPANESE.1080p.NF.WEBRip.DDP2.0.x264-monkee[rartv]/Midnight.Diner.Tokyo.Stories.S01E01.1080p.NF.WEB-DL.DDP2.0.x264-Monkee.mkv
+[   0.010][v][bdmv/bluray] Opening /home/nero/stuff/Torrents/Midnight.Diner.Tokyo.Stories.S01.JAPANESE.1080p.NF.WEBRip.DDP2.0.x264-monkee[rartv]/Midnight.Diner.Tokyo.Stories.S01E01.1080p.NF.WEB-DL.DDP2.0.x264-Monkee.mkv
+[   0.010][v][osd/libass] Shaper: FriBidi 1.0.10 (SIMPLE) HarfBuzz-ng 2.7.2 (COMPLEX)
+[   0.010][d][global] config path: 'subfont.ttf' -/-> '/home/nero/.config/mpv/subfont.ttf'
+[   0.010][d][global] config path: 'subfont.ttf' -/-> '/home/nero/.mpv/subfont.ttf'
+[   0.010][d][global] config path: 'subfont.ttf' -/-> '/etc/mpv/subfont.ttf'
+[   0.010][d][global] config path: 'fonts.conf' -/-> '/home/nero/.config/mpv/fonts.conf'
+[   0.010][d][global] config path: 'fonts.conf' -/-> '/home/nero/.mpv/fonts.conf'
+[   0.010][d][global] config path: 'fonts.conf' -/-> '/etc/mpv/fonts.conf'
+[   0.010][v][osd/libass] Setting up fonts...
+[   0.010][v][file] Opening /home/nero/stuff/Torrents/Midnight.Diner.Tokyo.Stories.S01.JAPANESE.1080p.NF.WEBRip.DDP2.0.x264-monkee[rartv]/Midnight.Diner.Tokyo.Stories.S01E01.1080p.NF.WEB-DL.DDP2.0.x264-Monkee.mkv
+[   0.010][d][file] resize stream to 131072 bytes, drop 0 bytes
+[   0.010][d][file] Stream opened successfully.
+[   0.010][v][demux] Trying demuxers for level=normal.
+[   0.010][d][demux] Trying demuxer: disc (force-level: normal)
+[   0.010][d][demux] Trying demuxer: edl (force-level: normal)
+[   0.011][d][demux] Trying demuxer: cue (force-level: normal)
+[   0.011][d][demux] Trying demuxer: rawaudio (force-level: normal)
+[   0.011][d][demux] Trying demuxer: rawvideo (force-level: normal)
+[   0.011][d][demux] Trying demuxer: mkv (force-level: normal)
+[   0.011][d][mkv] Found the head...
+[   0.011][d][mkv] + a segment...
+[   0.011][d][mkv] Parsing seek head...
+[   0.011][d][mkv] |+ segment information...
+[   0.011][d][mkv] float 1439939.000000
+[   0.011][d][mkv] | + muxing app: libebml v1.3.4 + libmatroska v1.4.5
+[   0.011][d][mkv] | + writing app: mkvmerge v13.0.0 ('The Juggler') 64bit
+[   0.011][d][mkv] | + timecode scale: 1000000
+[   0.011][d][mkv] | + duration: 1439.939s
+[   0.011][d][mkv] | + segment uid a6 e5 67 5d 96 cc 02 7a 96 d1 40 20 f1 6d 67 3f
+[   0.011][d][mkv] |+ segment tracks...
+[   0.011][d][mkv] float 48000.000000
+[   0.011][d][mkv] | + a track...
+[   0.011][d][mkv] |  + Track number: 1
+[   0.011][d][mkv] |  + Track type: Video
+[   0.011][d][mkv] |  + Video track
+[   0.011][d][mkv] |   + Display width: 1920
+[   0.011][d][mkv] |   + Display height: 1080
+[   0.011][d][mkv] |   + Pixel width: 1920
+[   0.011][d][mkv] |   + Pixel height: 1080
+[   0.011][d][mkv] |  + Codec ID: V_MPEG4/ISO/AVC
+[   0.011][d][mkv] |  + CodecPrivate, length 52
+[   0.011][d][mkv] |  + Language: und
+[   0.011][d][mkv] |  + Default duration: 41.708ms ( = 23.976 fps)
+[   0.011][d][mkv] | + a track...
+[   0.011][d][mkv] |  + Track number: 2
+[   0.011][d][mkv] |  + Track type: Audio
+[   0.011][d][mkv] |  + Audio track
+[   0.011][d][mkv] |   + Sampling frequency: 48000.000000
+[   0.011][d][mkv] |   + Channels: 2
+[   0.011][d][mkv] |  + Codec ID: A_EAC3
+[   0.011][d][mkv] |  + Language: jpn
+[   0.011][d][mkv] |  + Default duration: 32.000ms ( = 31.250 fps)
+[   0.011][d][mkv] | + a track...
+[   0.011][d][mkv] |  + Track number: 3
+[   0.011][d][mkv] |  + Track type: Subtitle
+[   0.011][d][mkv] |  + Codec ID: S_TEXT/UTF8
+[   0.011][d][mkv] |  + Default flag: 0
+[   0.011][d][mkv] | + a track...
+[   0.011][d][mkv] |  + Track number: 4
+[   0.011][d][mkv] |  + Track type: Subtitle
+[   0.011][d][mkv] |  + Codec ID: S_TEXT/UTF8
+[   0.011][d][mkv] |  + Language: spa
+[   0.011][d][mkv] |  + Default flag: 0
+[   0.011][d][mkv] | + a track...
+[   0.011][d][mkv] |  + Track number: 5
+[   0.011][d][mkv] |  + Track type: Subtitle
+[   0.011][d][mkv] |  + Codec ID: S_TEXT/UTF8
+[   0.011][d][mkv] |  + Language: jpn
+[   0.011][d][mkv] |  + Default flag: 0
+[   0.011][d][mkv] | + a track...
+[   0.011][d][mkv] |  + Track number: 6
+[   0.011][d][mkv] |  + Name: Simplified
+[   0.011][d][mkv] |  + Track type: Subtitle
+[   0.011][d][mkv] |  + Codec ID: S_TEXT/UTF8
+[   0.011][d][mkv] |  + Language: chi
+[   0.011][d][mkv] |  + Default flag: 0
+[   0.011][d][mkv] | + a track...
+[   0.011][d][mkv] |  + Track number: 7
+[   0.011][d][mkv] |  + Name: Traditional
+[   0.011][d][mkv] |  + Track type: Subtitle
+[   0.011][d][mkv] |  + Codec ID: S_TEXT/UTF8
+[   0.011][d][mkv] |  + Language: chi
+[   0.011][d][mkv] |  + Default flag: 0
+[   0.011][d][mkv] |+ found cluster
+[   0.011][v][mkv] Seeking to 808327774 to read header element 0x1c53bb6b.
+[   0.011][v][file] stream level seek from 131072 to 808327774
+[   0.011][v][mkv] Parsing cues...
+[   0.012][v][mkv] Seeking to 808384800 to read header element 0x1254c367.
+[   0.012][v][file] stream level seek from 808387637 to 5976
+[   0.012][v][mkv] All headers are parsed!
+[   0.012][v][demux] Detected file format: Matroska
+[   0.012][v][cplayer] Opening done: /home/nero/stuff/Torrents/Midnight.Diner.Tokyo.Stories.S01.JAPANESE.1080p.NF.WEBRip.DDP2.0.x264-monkee[rartv]/Midnight.Diner.Tokyo.Stories.S01E01.1080p.NF.WEB-DL.DDP2.0.x264-Monkee.mkv
+[   0.016][v][osd/libass] Using font provider fontconfig
+[   0.016][v][osd/libass] Done.
+[   0.018][v][find_files] Loading external files in /home/nero/stuff/Torrents/Midnight.Diner.Tokyo.Stories.S01.JAPANESE.1080p.NF.WEBRip.DDP2.0.x264-monkee[rartv]/
+[   0.018][d][global] config path: 'sub' -/-> '/home/nero/.config/mpv/sub'
+[   0.018][d][global] config path: 'sub' -/-> '/home/nero/.mpv/sub'
+[   0.018][d][global] config path: 'sub' -/-> '/etc/mpv/sub'
+[   0.018][v][cplayer] Running hook: ytdl_hook/on_preloaded
+[   0.018][v][mkv] select track 0
+[   0.018][v][mkv] select track 1
+[   0.018][v][mkv] select track 2
+[   0.018][i][cplayer]  (+) Video --vid=1 (*) (h264 1920x1080 23.976fps)
+[   0.018][i][cplayer]  (+) Audio --aid=1 --alang=jpn (*) (eac3 2ch 48000Hz)
+[   0.018][i][cplayer]  (+) Subs  --sid=1 --slang=eng (subrip)
+[   0.018][i][cplayer]      Subs  --sid=2 --slang=spa (subrip)
+[   0.018][i][cplayer]      Subs  --sid=3 --slang=jpn (subrip)
+[   0.018][i][cplayer]      Subs  --sid=4 --slang=chi 'Simplified' (subrip)
+[   0.018][i][cplayer]      Subs  --sid=5 --slang=chi 'Traditional' (subrip)
+[   0.019][v][vo/gpu] Probing for best GPU context.
+[   0.019][v][vo/gpu/opengl] Initializing GPU context 'wayland'
+[   0.019][v][vo/gpu/wayland] Registered for protocol wl_shm
+[   0.019][v][vo/gpu/wayland] Registered for protocol wl_compositor
+[   0.019][v][vo/gpu/wayland] Registered for protocol wl_data_device_manager
+[   0.019][v][vo/gpu/wayland] Registered for protocol zwp_idle_inhibit_manager_v1
+[   0.019][v][vo/gpu/wayland] Registered for protocol xdg_wm_base
+[   0.019][v][vo/gpu/wayland] Registered for protocol zxdg_decoration_manager_v1
+[   0.019][v][vo/gpu/wayland] Registered for protocol wp_presentation
+[   0.019][v][vo/gpu/wayland] Registered for protocol wl_seat
+[   0.019][v][vo/gpu/wayland] Registered for protocol wl_output
+[   0.019][v][vo/gpu/wayland] Registered for protocol wl_output
+[   0.019][v][vo/gpu/wayland] Registered for protocol wl_output
+[   0.019][v][vo/gpu/wayland] Enabling server decorations
+[   0.151][v][vo/gpu/opengl] EGL_VERSION=1.5
+[   0.151][v][vo/gpu/opengl] EGL_VENDOR=Mesa Project
+[   0.151][v][vo/gpu/opengl] EGL_CLIENT_APIS=OpenGL OpenGL_ES 
+[   0.151][v][vo/gpu/opengl] Trying to create Desktop OpenGL context.
+[   0.151][d][vo/gpu/opengl] Chosen EGLConfig:
+[   0.151][d][vo/gpu/opengl]   EGL_CONFIG_ID=0x11
+[   0.151][d][vo/gpu/opengl]   EGL_RED_SIZE=0xa
+[   0.151][d][vo/gpu/opengl]   EGL_GREEN_SIZE=0xa
+[   0.151][d][vo/gpu/opengl]   EGL_BLUE_SIZE=0xa
+[   0.151][d][vo/gpu/opengl]   EGL_ALPHA_SIZE=0x0
+[   0.151][d][vo/gpu/opengl]   EGL_COLOR_BUFFER_TYPE=0x308e
+[   0.151][d][vo/gpu/opengl]   EGL_CONFIG_CAVEAT=0x3038
+[   0.151][d][vo/gpu/opengl]   EGL_CONFORMANT=0x4d
+[   0.151][d][vo/gpu/opengl]   EGL_NATIVE_VISUAL_ID=0x0
+[   0.154][v][vo/gpu/wayland] GL_VERSION='4.6 (Core Profile) Mesa 20.2.3'
+[   0.154][v][vo/gpu/wayland] Detected desktop OpenGL 4.6.
+[   0.154][v][vo/gpu/wayland] GL_VENDOR='X.Org'
+[   0.154][v][vo/gpu/wayland] GL_RENDERER='AMD Radeon (TM) R9 380 Series (TONGA, DRM 3.39.0, 5.9.10.a-1-hardened, LLVM 11.0.0)'
+[   0.154][v][vo/gpu/wayland] GL_SHADING_LANGUAGE_VERSION='4.60'
+[   0.154][d][vo/gpu/wayland] Combined OpenGL extensions string:
+[   0.154][d][vo/gpu/wayland] EGL_ANDROID_blob_cache EGL_ANDROID_native_fence_sync EGL_EXT_buffer_age EGL_EXT_create_context_robustness EGL_EXT_image_dma_buf_import EGL_EXT_image_dma_buf_import_modifiers EGL_EXT_swap_buffers_with_damage EGL_KHR_cl_event2 EGL_KHR_config_attribs EGL_KHR_create_context EGL_KHR_create_context_no_error EGL_KHR_fence_sync EGL_KHR_get_all_proc_addresses EGL_KHR_gl_colorspace EGL_KHR_gl_renderbuffer_image EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_3D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_image_base EGL_KHR_no_config_context EGL_KHR_reusable_sync EGL_KHR_surfaceless_context EGL_KHR_swap_buffers_with_damage EGL_EXT_pixel_format_float EGL_KHR_wait_sync EGL_MESA_configless_context EGL_MESA_drm_image EGL_MESA_image_dma_buf_export EGL_MESA_query_driver EGL_WL_bind_wayland_display EGL_WL_create_wayland_buffer_from_image  GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_framebuffer_multisample_advanced GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_sparse_buffer GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha_to_coverage_dither_control GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_NV_vdpau_interop GL_OES_EGL_image GL_S3_s3tc
+[   0.155][v][vo/gpu/wayland] Loaded extension GL_NV_vdpau_interop.
+[   0.157][d][vo/gpu/opengl] Texture formats:
+[   0.157][d][vo/gpu/opengl]   NAME       COMP*TYPE SIZE           DEPTH PER COMP.
+[   0.157][d][vo/gpu/opengl]   r8         1*unorm   1B    LF CR ST {8}
+[   0.157][d][vo/gpu/opengl]   rg8        2*unorm   2B    LF CR ST {8 8}
+[   0.157][d][vo/gpu/opengl]   rgb8       3*unorm   3B    LF CR ST {8 8 8}
+[   0.157][d][vo/gpu/opengl]   rgba8      4*unorm   4B    LF CR ST {8 8 8 8}
+[   0.157][d][vo/gpu/opengl]   r16        1*unorm   2B    LF CR ST {16}
+[   0.157][d][vo/gpu/opengl]   rg16       2*unorm   4B    LF CR ST {16 16}
+[   0.157][d][vo/gpu/opengl]   rgb16      3*unorm   6B    LF CR ST {16 16 16}
+[   0.157][d][vo/gpu/opengl]   rgba16     4*unorm   8B    LF CR ST {16 16 16 16}
+[   0.157][d][vo/gpu/opengl]   r8ui       1*uint    1B       CR ST {8}
+[   0.157][d][vo/gpu/opengl]   rg8ui      2*uint    2B       CR ST {8 8}
+[   0.157][d][vo/gpu/opengl]   rgb8ui     3*uint    3B          ST {8 8 8}
+[   0.157][d][vo/gpu/opengl]   rgba8ui    4*uint    4B       CR ST {8 8 8 8}
+[   0.157][d][vo/gpu/opengl]   r16ui      1*uint    2B       CR ST {16}
+[   0.157][d][vo/gpu/opengl]   rg16ui     2*uint    4B       CR ST {16 16}
+[   0.157][d][vo/gpu/opengl]   rgb16ui    3*uint    6B          ST {16 16 16}
+[   0.157][d][vo/gpu/opengl]   rgba16ui   4*uint    8B       CR ST {16 16 16 16}
+[   0.157][d][vo/gpu/opengl]   r16f       1*float   4B    LF CR ST {32/16}
+[   0.157][d][vo/gpu/opengl]   rg16f      2*float   8B    LF CR ST {32/16 32/16}
+[   0.157][d][vo/gpu/opengl]   rgb16f     3*float  12B    LF CR ST {32/16 32/16 32/16}
+[   0.157][d][vo/gpu/opengl]   rgba16f    4*float  16B    LF CR ST {32/16 32/16 32/16 32/16}
+[   0.157][d][vo/gpu/opengl]   r32f       1*float   4B    LF CR ST {32}
+[   0.157][d][vo/gpu/opengl]   rg32f      2*float   8B    LF CR ST {32 32}
+[   0.157][d][vo/gpu/opengl]   rgb32f     3*float  12B    LF CR ST {32 32 32}
+[   0.157][d][vo/gpu/opengl]   rgba32f    4*float  16B    LF CR ST {32 32 32 32}
+[   0.157][d][vo/gpu/opengl]   rgb10_a2   4*unorm   4B    LF CR ST {0/10 0/10 0/10 0/2}
+[   0.157][d][vo/gpu/opengl]   rgba12     4*unorm   8B    LF CR ST {16 16 16 16}
+[   0.157][d][vo/gpu/opengl]   rgb10      3*unorm   6B    LF CR ST {16/10 16/10 16/10}
+[   0.157][d][vo/gpu/opengl]   rgb565     3*unorm   2B    LF    ST {0/8 0/8 0/8}
+[   0.157][d][vo/gpu/opengl]  LA = LUMINANCE_ALPHA hack format
+[   0.157][d][vo/gpu/opengl]  LF = linear filterable
+[   0.157][d][vo/gpu/opengl]  CR = can be used for render targets
+[   0.157][d][vo/gpu/opengl]  ST = can be used for storable images
+[   0.157][d][vo/gpu/opengl] Image formats:
+[   0.157][d][vo/gpu/opengl]   yuv444p => 3 planes 1x1 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.157][d][vo/gpu/opengl]   yuv420p => 3 planes 2x2 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.157][d][vo/gpu/opengl]   gray => 1 planes 1x1 8/0 [r8] (r) [unorm]
+[   0.157][d][vo/gpu/opengl]   gray16 => 1 planes 1x1 16/0 [r16] (r) [unorm]
+[   0.157][d][vo/gpu/opengl]   uyvy422
+[   0.157][d][vo/gpu/opengl]   nv12 => 2 planes 2x2 8/0 [r8/rg8] (r/gb) [unorm]
+[   0.157][d][vo/gpu/opengl]   p010 => 2 planes 2x2 16/6 [r16/rg16] (r/gb) [unorm]
+[   0.157][d][vo/gpu/opengl]   argb => 1 planes 1x1 8/0 [rgba8] (argb) [unorm]
+[   0.157][d][vo/gpu/opengl]   bgra => 1 planes 1x1 8/0 [rgba8] (bgra) [unorm]
+[   0.157][d][vo/gpu/opengl]   abgr => 1 planes 1x1 8/0 [rgba8] (abgr) [unorm]
+[   0.157][d][vo/gpu/opengl]   rgba => 1 planes 1x1 8/0 [rgba8] (rgba) [unorm]
+[   0.157][d][vo/gpu/opengl]   bgr24 => 1 planes 1x1 8/0 [rgb8] (bgr) [unorm]
+[   0.157][d][vo/gpu/opengl]   rgb24 => 1 planes 1x1 8/0 [rgb8] (rgb) [unorm]
+[   0.157][d][vo/gpu/opengl]   0rgb => 1 planes 1x1 8/0 [rgba8] (_rgb) [unorm]
+[   0.157][d][vo/gpu/opengl]   bgr0 => 1 planes 1x1 8/0 [rgba8] (bgr) [unorm]
+[   0.157][d][vo/gpu/opengl]   0bgr => 1 planes 1x1 8/0 [rgba8] (_bgr) [unorm]
+[   0.157][d][vo/gpu/opengl]   rgb0 => 1 planes 1x1 8/0 [rgba8] (rgb) [unorm]
+[   0.157][d][vo/gpu/opengl]   rgba64 => 1 planes 1x1 16/0 [rgba16] (rgba) [unorm]
+[   0.157][d][vo/gpu/opengl]   rgb565 => 1 planes 1x1 0/0 [rgb565] (rgb) [unknown]
+[   0.157][d][vo/gpu/opengl]   pal8
+[   0.157][d][vo/gpu/opengl]   vdpau
+[   0.157][d][vo/gpu/opengl]   d3d11
+[   0.157][d][vo/gpu/opengl]   dxva2_vld
+[   0.157][d][vo/gpu/opengl]   mmal
+[   0.157][d][vo/gpu/opengl]   mediacodec
+[   0.157][d][vo/gpu/opengl]   drm_prime
+[   0.157][d][vo/gpu/opengl]   cuda
+[   0.157][d][vo/gpu/opengl]   yap8 => 2 planes 1x1 8/0 [r8/r8] (r/a) [unorm]
+[   0.157][d][vo/gpu/opengl]   yap16 => 2 planes 1x1 16/0 [r16/r16] (r/a) [unorm]
+[   0.157][d][vo/gpu/opengl]   grayaf32 => 2 planes 1x1 32/0 [r16f/r16f] (r/a) [float]
+[   0.157][d][vo/gpu/opengl]   yuv444pf => 3 planes 1x1 32/0 [r16f/r16f/r16f] (r/g/b) [float]
+[   0.157][d][vo/gpu/opengl]   yuva444pf => 4 planes 1x1 32/0 [r16f/r16f/r16f/r16f] (r/g/b/a) [float]
+[   0.157][d][vo/gpu/opengl]   yuv420pf => 3 planes 2x2 32/0 [r16f/r16f/r16f] (r/g/b) [float]
+[   0.157][d][vo/gpu/opengl]   yuva420pf => 4 planes 2x2 32/0 [r16f/r16f/r16f/r16f] (r/g/b/a) [float]
+[   0.157][d][vo/gpu/opengl]   yuv422pf => 3 planes 2x1 32/0 [r16f/r16f/r16f] (r/g/b) [float]
+[   0.157][d][vo/gpu/opengl]   yuva422pf => 4 planes 2x1 32/0 [r16f/r16f/r16f/r16f] (r/g/b/a) [float]
+[   0.157][d][vo/gpu/opengl]   yuv440pf => 3 planes 1x2 32/0 [r16f/r16f/r16f] (r/g/b) [float]
+[   0.157][d][vo/gpu/opengl]   yuva440pf => 4 planes 1x2 32/0 [r16f/r16f/r16f/r16f] (r/g/b/a) [float]
+[   0.157][d][vo/gpu/opengl]   yuv410pf => 3 planes 4x4 32/0 [r16f/r16f/r16f] (r/g/b) [float]
+[   0.157][d][vo/gpu/opengl]   yuva410pf => 4 planes 4x4 32/0 [r16f/r16f/r16f/r16f] (r/g/b/a) [float]
+[   0.157][d][vo/gpu/opengl]   yuv411pf => 3 planes 4x1 32/0 [r16f/r16f/r16f] (r/g/b) [float]
+[   0.157][d][vo/gpu/opengl]   yuva411pf => 4 planes 4x1 32/0 [r16f/r16f/r16f/r16f] (r/g/b/a) [float]
+[   0.157][d][vo/gpu/opengl]   rgb30 => 1 planes 1x1 10/0 [rgb10_a2] (bgr) [unknown]
+[   0.157][d][vo/gpu/opengl]   y1 => 1 planes 1x1 8/-7 [r8] (r) [unorm]
+[   0.157][d][vo/gpu/opengl]   gbrp1 => 3 planes 1x1 8/-7 [r8/r8/r8] (g/b/r) [unorm]
+[   0.157][d][vo/gpu/opengl]   gbrp2 => 3 planes 1x1 8/-6 [r8/r8/r8] (g/b/r) [unorm]
+[   0.157][d][vo/gpu/opengl]   gbrp3 => 3 planes 1x1 8/-5 [r8/r8/r8] (g/b/r) [unorm]
+[   0.157][d][vo/gpu/opengl]   gbrp4 => 3 planes 1x1 8/-4 [r8/r8/r8] (g/b/r) [unorm]
+[   0.157][d][vo/gpu/opengl]   gbrp5 => 3 planes 1x1 8/-3 [r8/r8/r8] (g/b/r) [unorm]
+[   0.157][d][vo/gpu/opengl]   gbrp6 => 3 planes 1x1 8/-2 [r8/r8/r8] (g/b/r) [unorm]
+[   0.157][d][vo/gpu/opengl]   vdpau_output
+[   0.157][d][vo/gpu/opengl]   vaapi
+[   0.157][d][vo/gpu/opengl]   videotoolbox
+[   0.157][d][vo/gpu/opengl]   yuyv422
+[   0.157][d][vo/gpu/opengl]   yuv422p => 3 planes 2x1 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.157][d][vo/gpu/opengl]   yuv410p => 3 planes 4x4 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.157][d][vo/gpu/opengl]   yuv411p => 3 planes 4x1 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.157][d][vo/gpu/opengl]   monow
+[   0.157][d][vo/gpu/opengl]   monob
+[   0.157][d][vo/gpu/opengl]   yuvj422p => 3 planes 2x1 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.157][d][vo/gpu/opengl]   uyyvyy411
+[   0.157][d][vo/gpu/opengl]   bgr8
+[   0.157][d][vo/gpu/opengl]   bgr4
+[   0.157][d][vo/gpu/opengl]   bgr4_byte
+[   0.157][d][vo/gpu/opengl]   rgb8
+[   0.157][d][vo/gpu/opengl]   rgb4
+[   0.157][d][vo/gpu/opengl]   rgb4_byte
+[   0.157][d][vo/gpu/opengl]   nv21 => 2 planes 2x2 8/0 [r8/rg8] (r/bg) [unorm]
+[   0.157][d][vo/gpu/opengl]   gray16be
+[   0.157][d][vo/gpu/opengl]   yuv440p => 3 planes 1x2 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.157][d][vo/gpu/opengl]   yuvj440p => 3 planes 1x2 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.157][d][vo/gpu/opengl]   yuva420p => 4 planes 2x2 8/0 [r8/r8/r8/r8] (r/g/b/a) [unorm]
+[   0.157][d][vo/gpu/opengl]   rgb48be
+[   0.157][d][vo/gpu/opengl]   rgb48 => 1 planes 1x1 16/0 [rgb16] (rgb) [unorm]
+[   0.157][d][vo/gpu/opengl]   rgb565be
+[   0.157][d][vo/gpu/opengl]   rgb555be
+[   0.157][d][vo/gpu/opengl]   rgb555
+[   0.157][d][vo/gpu/opengl]   bgr565be
+[   0.157][d][vo/gpu/opengl]   bgr565
+[   0.157][d][vo/gpu/opengl]   bgr555be
+[   0.157][d][vo/gpu/opengl]   bgr555
+[   0.157][d][vo/gpu/opengl]   vaapi_moco
+[   0.157][d][vo/gpu/opengl]   vaapi_idct
+[   0.157][d][vo/gpu/opengl]   yuv420p16 => 3 planes 2x2 16/0 [r16/r16/r16] (r/g/b) [unorm]
+[   0.157][d][vo/gpu/opengl]   yuv420p16be
+[   0.157][d][vo/gpu/opengl]   yuv422p16 => 3 planes 2x1 16/0 [r16/r16/r16] (r/g/b) [unorm]
+[   0.157][d][vo/gpu/opengl]   yuv422p16be
+[   0.157][d][vo/gpu/opengl]   yuv444p16 => 3 planes 1x1 16/0 [r16/r16/r16] (r/g/b) [unorm]
+[   0.157][d][vo/gpu/opengl]   yuv444p16be
+[   0.157][d][vo/gpu/opengl]   rgb444
+[   0.157][d][vo/gpu/opengl]   rgb444be
+[   0.157][d][vo/gpu/opengl]   bgr444
+[   0.157][d][vo/gpu/opengl]   bgr444be
+[   0.157][d][vo/gpu/opengl]   ya8 => 1 planes 1x1 8/0 [rg8] (ra) [unorm]
+[   0.157][d][vo/gpu/opengl]   bgr48be
+[   0.157][d][vo/gpu/opengl]   bgr48 => 1 planes 1x1 16/0 [rgb16] (bgr) [unorm]
+[   0.157][d][vo/gpu/opengl]   yuv420p9be
+[   0.157][d][vo/gpu/opengl]   yuv420p9 => 3 planes 2x2 16/-7 [r16/r16/r16] (r/g/b) [unorm]
+[   0.157][d][vo/gpu/opengl]   yuv420p10be
+[   0.157][d][vo/gpu/opengl]   yuv420p10 => 3 planes 2x2 16/-6 [r16/r16/r16] (r/g/b) [unorm]
+[   0.157][d][vo/gpu/opengl]   yuv422p10be
+[   0.157][d][vo/gpu/opengl]   yuv422p10 => 3 planes 2x1 16/-6 [r16/r16/r16] (r/g/b) [unorm]
+[   0.157][d][vo/gpu/opengl]   yuv444p9be
+[   0.157][d][vo/gpu/opengl]   yuv444p9 => 3 planes 1x1 16/-7 [r16/r16/r16] (r/g/b) [unorm]
+[   0.157][d][vo/gpu/opengl]   yuv444p10be
+[   0.157][d][vo/gpu/opengl]   yuv444p10 => 3 planes 1x1 16/-6 [r16/r16/r16] (r/g/b) [unorm]
+[   0.157][d][vo/gpu/opengl]   yuv422p9be
+[   0.157][d][vo/gpu/opengl]   yuv422p9 => 3 planes 2x1 16/-7 [r16/r16/r16] (r/g/b) [unorm]
+[   0.157][d][vo/gpu/opengl]   gbrp => 3 planes 1x1 8/0 [r8/r8/r8] (g/b/r) [unorm]
+[   0.157][d][vo/gpu/opengl]   gbrp9be
+[   0.157][d][vo/gpu/opengl]   gbrp9 => 3 planes 1x1 16/-7 [r16/r16/r16] (g/b/r) [unorm]
+[   0.157][d][vo/gpu/opengl]   gbrp10be
+[   0.157][d][vo/gpu/opengl]   gbrp10 => 3 planes 1x1 16/-6 [r16/r16/r16] (g/b/r) [unorm]
+[   0.157][d][vo/gpu/opengl]   gbrp16be
+[   0.157][d][vo/gpu/opengl]   gbrp16 => 3 planes 1x1 16/0 [r16/r16/r16] (g/b/r) [unorm]
+[   0.157][d][vo/gpu/opengl]   yuva422p => 4 planes 2x1 8/0 [r8/r8/r8/r8] (r/g/b/a) [unorm]
+[   0.157][d][vo/gpu/opengl]   yuva444p => 4 planes 1x1 8/0 [r8/r8/r8/r8] (r/g/b/a) [unorm]
+[   0.157][d][vo/gpu/opengl]   yuva420p9be
+[   0.157][d][vo/gpu/opengl]   yuva420p9 => 4 planes 2x2 16/-7 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.157][d][vo/gpu/opengl]   yuva422p9be
+[   0.157][d][vo/gpu/opengl]   yuva422p9 => 4 planes 2x1 16/-7 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.157][d][vo/gpu/opengl]   yuva444p9be
+[   0.157][d][vo/gpu/opengl]   yuva444p9 => 4 planes 1x1 16/-7 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.157][d][vo/gpu/opengl]   yuva420p10be
+[   0.157][d][vo/gpu/opengl]   yuva420p10 => 4 planes 2x2 16/-6 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.157][d][vo/gpu/opengl]   yuva422p10be
+[   0.157][d][vo/gpu/opengl]   yuva422p10 => 4 planes 2x1 16/-6 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.157][d][vo/gpu/opengl]   yuva444p10be
+[   0.157][d][vo/gpu/opengl]   yuva444p10 => 4 planes 1x1 16/-6 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.157][d][vo/gpu/opengl]   yuva420p16be
+[   0.157][d][vo/gpu/opengl]   yuva420p16 => 4 planes 2x2 16/0 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.157][d][vo/gpu/opengl]   yuva422p16be
+[   0.157][d][vo/gpu/opengl]   yuva422p16 => 4 planes 2x1 16/0 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.157][d][vo/gpu/opengl]   yuva444p16be
+[   0.157][d][vo/gpu/opengl]   yuva444p16 => 4 planes 1x1 16/0 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.157][d][vo/gpu/opengl]   xyz12 => 1 planes 1x1 16/4 [rgb16] (rgb) [unorm]
+[   0.158][d][vo/gpu/opengl]   xyz12be
+[   0.158][d][vo/gpu/opengl]   nv16 => 2 planes 2x1 8/0 [r8/rg8] (r/gb) [unorm]
+[   0.158][d][vo/gpu/opengl]   nv20 => 2 planes 2x1 16/-6 [r16/rg16] (r/gb) [unorm]
+[   0.158][d][vo/gpu/opengl]   nv20be
+[   0.158][d][vo/gpu/opengl]   rgba64be
+[   0.158][d][vo/gpu/opengl]   bgra64be
+[   0.158][d][vo/gpu/opengl]   bgra64 => 1 planes 1x1 16/0 [rgba16] (bgra) [unorm]
+[   0.158][d][vo/gpu/opengl]   yvyu422
+[   0.158][d][vo/gpu/opengl]   ya16be
+[   0.158][d][vo/gpu/opengl]   ya16 => 1 planes 1x1 16/0 [rg16] (ra) [unorm]
+[   0.158][d][vo/gpu/opengl]   gbrap => 4 planes 1x1 8/0 [r8/r8/r8/r8] (g/b/r/a) [unorm]
+[   0.158][d][vo/gpu/opengl]   gbrap16be
+[   0.158][d][vo/gpu/opengl]   gbrap16 => 4 planes 1x1 16/0 [r16/r16/r16/r16] (g/b/r/a) [unorm]
+[   0.158][d][vo/gpu/opengl]   qsv
+[   0.158][d][vo/gpu/opengl]   d3d11va_vld
+[   0.158][d][vo/gpu/opengl]   yuv420p12be
+[   0.158][d][vo/gpu/opengl]   yuv420p12 => 3 planes 2x2 16/-4 [r16/r16/r16] (r/g/b) [unorm]
+[   0.158][d][vo/gpu/opengl]   yuv420p14be
+[   0.158][d][vo/gpu/opengl]   yuv420p14 => 3 planes 2x2 16/-2 [r16/r16/r16] (r/g/b) [unorm]
+[   0.158][d][vo/gpu/opengl]   yuv422p12be
+[   0.158][d][vo/gpu/opengl]   yuv422p12 => 3 planes 2x1 16/-4 [r16/r16/r16] (r/g/b) [unorm]
+[   0.158][d][vo/gpu/opengl]   yuv422p14be
+[   0.158][d][vo/gpu/opengl]   yuv422p14 => 3 planes 2x1 16/-2 [r16/r16/r16] (r/g/b) [unorm]
+[   0.158][d][vo/gpu/opengl]   yuv444p12be
+[   0.158][d][vo/gpu/opengl]   yuv444p12 => 3 planes 1x1 16/-4 [r16/r16/r16] (r/g/b) [unorm]
+[   0.158][d][vo/gpu/opengl]   yuv444p14be
+[   0.158][d][vo/gpu/opengl]   yuv444p14 => 3 planes 1x1 16/-2 [r16/r16/r16] (r/g/b) [unorm]
+[   0.158][d][vo/gpu/opengl]   gbrp12be
+[   0.158][d][vo/gpu/opengl]   gbrp12 => 3 planes 1x1 16/-4 [r16/r16/r16] (g/b/r) [unorm]
+[   0.158][d][vo/gpu/opengl]   gbrp14be
+[   0.158][d][vo/gpu/opengl]   gbrp14 => 3 planes 1x1 16/-2 [r16/r16/r16] (g/b/r) [unorm]
+[   0.158][d][vo/gpu/opengl]   yuvj411p => 3 planes 4x1 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.158][d][vo/gpu/opengl]   bayer_bggr8
+[   0.158][d][vo/gpu/opengl]   bayer_rggb8
+[   0.158][d][vo/gpu/opengl]   bayer_gbrg8
+[   0.158][d][vo/gpu/opengl]   bayer_grbg8
+[   0.158][d][vo/gpu/opengl]   bayer_bggr16
+[   0.158][d][vo/gpu/opengl]   bayer_bggr16be
+[   0.158][d][vo/gpu/opengl]   bayer_rggb16
+[   0.158][d][vo/gpu/opengl]   bayer_rggb16be
+[   0.158][d][vo/gpu/opengl]   bayer_gbrg16
+[   0.158][d][vo/gpu/opengl]   bayer_gbrg16be
+[   0.158][d][vo/gpu/opengl]   bayer_grbg16
+[   0.158][d][vo/gpu/opengl]   bayer_grbg16be
+[   0.158][d][vo/gpu/opengl]   xvmc
+[   0.158][d][vo/gpu/opengl]   yuv440p10 => 3 planes 1x2 16/-6 [r16/r16/r16] (r/g/b) [unorm]
+[   0.158][d][vo/gpu/opengl]   yuv440p10be
+[   0.158][d][vo/gpu/opengl]   yuv440p12 => 3 planes 1x2 16/-4 [r16/r16/r16] (r/g/b) [unorm]
+[   0.158][d][vo/gpu/opengl]   yuv440p12be
+[   0.158][d][vo/gpu/opengl]   ayuv64 => 1 planes 1x1 16/0 [rgba16] (argb) [unorm]
+[   0.158][d][vo/gpu/opengl]   ayuv64be
+[   0.158][d][vo/gpu/opengl]   p010be
+[   0.158][d][vo/gpu/opengl]   gbrap12be
+[   0.158][d][vo/gpu/opengl]   gbrap12 => 4 planes 1x1 16/-4 [r16/r16/r16/r16] (g/b/r/a) [unorm]
+[   0.158][d][vo/gpu/opengl]   gbrap10be
+[   0.158][d][vo/gpu/opengl]   gbrap10 => 4 planes 1x1 16/-6 [r16/r16/r16/r16] (g/b/r/a) [unorm]
+[   0.158][d][vo/gpu/opengl]   gray12be
+[   0.158][d][vo/gpu/opengl]   gray12 => 1 planes 1x1 16/-4 [r16] (r) [unorm]
+[   0.158][d][vo/gpu/opengl]   gray10be
+[   0.158][d][vo/gpu/opengl]   gray10 => 1 planes 1x1 16/-6 [r16] (r) [unorm]
+[   0.158][d][vo/gpu/opengl]   p016 => 2 planes 2x2 16/0 [r16/rg16] (r/gb) [unorm]
+[   0.158][d][vo/gpu/opengl]   p016be
+[   0.158][d][vo/gpu/opengl]   gray9be
+[   0.158][d][vo/gpu/opengl]   gray9 => 1 planes 1x1 16/-7 [r16] (r) [unorm]
+[   0.158][d][vo/gpu/opengl]   gbrpf32be
+[   0.158][d][vo/gpu/opengl]   gbrpf32 => 3 planes 1x1 32/0 [r16f/r16f/r16f] (g/b/r) [float]
+[   0.158][d][vo/gpu/opengl]   gbrapf32be
+[   0.158][d][vo/gpu/opengl]   gbrapf32 => 4 planes 1x1 32/0 [r16f/r16f/r16f/r16f] (g/b/r/a) [float]
+[   0.158][d][vo/gpu/opengl]   opencl
+[   0.158][d][vo/gpu/opengl]   gray14be
+[   0.158][d][vo/gpu/opengl]   gray14 => 1 planes 1x1 16/-2 [r16] (r) [unorm]
+[   0.158][d][vo/gpu/opengl]   grayf32be
+[   0.158][d][vo/gpu/opengl]   grayf32 => 1 planes 1x1 32/0 [r16f] (r) [float]
+[   0.158][d][vo/gpu/opengl]   yuva422p12be
+[   0.158][d][vo/gpu/opengl]   yuva422p12 => 4 planes 2x1 16/-4 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.158][d][vo/gpu/opengl]   yuva444p12be
+[   0.158][d][vo/gpu/opengl]   yuva444p12 => 4 planes 1x1 16/-4 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.158][d][vo/gpu/opengl]   nv24 => 2 planes 1x1 8/0 [r8/rg8] (r/gb) [unorm]
+[   0.158][d][vo/gpu/opengl]   nv42 => 2 planes 1x1 8/0 [r8/rg8] (r/bg) [unorm]
+[   0.158][d][vo/gpu/opengl]   vulkan
+[   0.158][d][vo/gpu/opengl]   y210be
+[   0.158][d][vo/gpu/opengl]   y210
+[   0.158][v][vo/gpu] Testing FBO format rgba16f
+[   0.158][d][vo/gpu] Resizing texture: 16x16
+[   0.158][v][vo/gpu] Using FBO format rgba16f.
+[   0.158][v][vo/gpu/wayland] Registered output Dell Inc. DELL P2317H (0x24):
+[   0.158][v][vo/gpu/wayland] 	x: 0px, y: 0px
+[   0.158][v][vo/gpu/wayland] 	w: 1920px (510mm), h: 1080px (290mm)
+[   0.158][v][vo/gpu/wayland] 	scale: 1
+[   0.158][v][vo/gpu/wayland] 	Hz: 60.000000
+[   0.158][v][vo/gpu/wayland] Registered output Dell Inc. DELL P2317H (0x25):
+[   0.158][v][vo/gpu/wayland] 	x: 0px, y: 0px
+[   0.158][v][vo/gpu/wayland] 	w: 1920px (510mm), h: 1080px (290mm)
+[   0.158][v][vo/gpu/wayland] 	scale: 1
+[   0.158][v][vo/gpu/wayland] 	Hz: 60.000000
+[   0.158][v][vo/gpu/wayland] Registered output Sony SONY TV (0x27):
+[   0.158][v][vo/gpu/wayland] 	x: 0px, y: 0px
+[   0.158][v][vo/gpu/wayland] 	w: 1920px (1600mm), h: 1080px (900mm)
+[   0.158][v][vo/gpu/wayland] 	scale: 1
+[   0.158][v][vo/gpu/wayland] 	Hz: 60.000000
+[   0.158][v][vo/gpu] Resize: 0x0
+[   0.160][v][vd] Container reported FPS: 23.976024
+[   0.160][v][vd] Codec list:
+[   0.160][v][vd]     h264 - H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10
+[   0.160][v][vd]     h264_v4l2m2m (h264) - V4L2 mem2mem H.264 decoder wrapper
+[   0.160][v][vd]     h264_qsv (h264) - H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10 (Intel Quick Sync Video acceleration)
+[   0.160][v][vd]     h264_cuvid (h264) - Nvidia CUVID H264 decoder
+[   0.160][v][vd] Opening decoder h264
+[   0.160][v][vd] Looking at hwdec h264-nvdec...
+[   0.160][v][vo/gpu] Loading hwdec driver 'vaapi-egl'
+[   0.160][v][vo/gpu/vaapi-egl] using VAAPI EGL interop
+[   0.160][v][vo/gpu/vaapi-egl] Trying to open a x11 VA display...
+[   0.160][v][vo/gpu/vaapi-egl] Trying to open a wayland VA display...
+[   0.161][d][vo/gpu/vaapi-egl/vaapi] libva: VA-API version 1.9.0
+[   0.161][d][vo/gpu/vaapi-egl/vaapi] libva: Trying to open /usr/lib/dri/radeonsi_drv_video.so
+[   0.166][d][vo/gpu/vaapi-egl/vaapi] libva: Found init function __vaDriverInit_1_9
+[   0.172][d][vo/gpu/vaapi-egl/vaapi] libva: va_openDriver() returns 0
+[   0.172][v][vo/gpu/vaapi-egl/vaapi] Initialized VAAPI: version 1.9
+[   0.172][d][ffmpeg] AVHWDeviceContext: VAAPI driver: Mesa Gallium driver 20.2.3 for AMD Radeon (TM) R9 380 Series (TONGA, DRM 3.39.0, 5.9.10.a-1-hardened, LLVM 11.0.0).
+[   0.172][d][ffmpeg] AVHWDeviceContext: Driver not found in known nonstandard list, using standard behaviour.
+[   0.172][v][vo/gpu/vaapi-egl] Going to probe surface formats (may log bogus errors)...
+[   0.175][d][vo/gpu/vaapi-egl] Supported formats:
+[   0.175][d][vo/gpu/vaapi-egl]  nv12
+[   0.175][d][vo/gpu/vaapi-egl]  bgra
+[   0.175][d][vo/gpu/vaapi-egl]  rgba
+[   0.175][d][vo/gpu/vaapi-egl]  bgr0
+[   0.175][d][vo/gpu/vaapi-egl]  rgb0
+[   0.175][d][vo/gpu/vaapi-egl]  p010
+[   0.175][v][vo/gpu/vaapi-egl] Done probing surface formats.
+[   0.175][v][vo/gpu] Loading hwdec driver 'cuda-nvdec'
+[   0.175][v][vo/gpu/cuda-nvdec] Failed to load CUDA symbols
+[   0.175][v][vo/gpu] Loading failed.
+[   0.175][v][vo/gpu] Loading hwdec driver 'drmprime-drm'
+[   0.175][v][vo/gpu/drmprime-drm] Failed to retrieve DRM fd from native display.
+[   0.175][v][vo/gpu] Loading failed.
+[   0.175][v][vd] Could not create device.
+[   0.175][v][vd] Looking at hwdec h264-vaapi...
+[   0.175][v][vd] Trying hardware decoding via h264-vaapi.
+[   0.175][v][vd] Pixel formats supported by decoder: vdpau cuda vaapi_vld yuv420p
+[   0.175][v][vd] Codec profile: Main (0x4d)
+[   0.177][v][vd] Requesting pixfmt 'vaapi_vld' from decoder.
+[   0.177][d][ffmpeg/video] h264: Reinit context to 1920x1088, pix_fmt: vaapi_vld
+[   0.183][v][vd] Selected codec: h264 (H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10)
+[   0.183][v][vf] User filter list:
+[   0.183][v][vf]   (empty)
+[   0.183][v][ad] Codec list:
+[   0.183][v][ad]     eac3 - ATSC A/52B (AC-3, E-AC-3)
+[   0.183][v][ad] Opening decoder eac3
+[   0.184][v][ad] Requesting 1 threads for decoding.
+[   0.184][v][ad] Selected codec: eac3 (ATSC A/52B (AC-3, E-AC-3))
+[   0.184][v][af] User filter list:
+[   0.184][v][af]   (empty)
+[   0.184][d][global] config path: 'fonts' -/-> '/home/nero/.config/mpv/fonts'
+[   0.184][d][global] config path: 'fonts' -/-> '/home/nero/.mpv/fonts'
+[   0.184][d][global] config path: 'fonts' -/-> '/etc/mpv/fonts'
+[   0.184][d][sub/ass] ASS library version: 0x1500000 (runtime 0x1500000)
+[   0.184][v][sub/ass] Shaper: FriBidi 1.0.10 (SIMPLE) HarfBuzz-ng 2.7.2 (COMPLEX)
+[   0.184][d][global] config path: 'subfont.ttf' -/-> '/home/nero/.config/mpv/subfont.ttf'
+[   0.184][d][global] config path: 'subfont.ttf' -/-> '/home/nero/.mpv/subfont.ttf'
+[   0.184][d][global] config path: 'subfont.ttf' -/-> '/etc/mpv/subfont.ttf'
+[   0.184][d][global] config path: 'fonts.conf' -/-> '/home/nero/.config/mpv/fonts.conf'
+[   0.184][d][global] config path: 'fonts.conf' -/-> '/home/nero/.mpv/fonts.conf'
+[   0.184][d][global] config path: 'fonts.conf' -/-> '/etc/mpv/fonts.conf'
+[   0.184][v][sub/ass] Setting up fonts...
+[   0.189][v][sub/ass] Using font provider fontconfig
+[   0.189][v][sub/ass] Done.
+[   0.189][v][cplayer] Starting playback...
+[   0.190][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[   0.190][v][cplayer] Set property: shared-script-properties -> 1
+[   0.190][d][global] config path: 'fonts' -/-> '/home/nero/.config/mpv/fonts'
+[   0.190][d][global] config path: 'fonts' -/-> '/home/nero/.mpv/fonts'
+[   0.190][d][global] config path: 'fonts' -/-> '/etc/mpv/fonts'
+[   0.190][d][osd/libass] ASS library version: 0x1500000 (runtime 0x1500000)
+[   0.190][v][osd/libass] Shaper: FriBidi 1.0.10 (SIMPLE) HarfBuzz-ng 2.7.2 (COMPLEX)
+[   0.190][d][global] config path: 'subfont.ttf' -/-> '/home/nero/.config/mpv/subfont.ttf'
+[   0.190][d][global] config path: 'subfont.ttf' -/-> '/home/nero/.mpv/subfont.ttf'
+[   0.190][d][global] config path: 'subfont.ttf' -/-> '/etc/mpv/subfont.ttf'
+[   0.190][d][global] config path: 'fonts.conf' -/-> '/home/nero/.config/mpv/fonts.conf'
+[   0.190][d][global] config path: 'fonts.conf' -/-> '/home/nero/.mpv/fonts.conf'
+[   0.190][d][global] config path: 'fonts.conf' -/-> '/etc/mpv/fonts.conf'
+[   0.190][v][osd/libass] Setting up fonts...
+[   0.195][v][osd/libass] Using font provider fontconfig
+[   0.195][v][osd/libass] Done.
+[   0.196][v][af] [in] 48000Hz stereo 2ch floatp
+[   0.196][v][af] [userspeed] 48000Hz stereo 2ch floatp
+[   0.196][v][af] [userspeed] (disabled)
+[   0.196][v][af] [convert] 48000Hz stereo 2ch floatp
+[   0.197][v][vd] Pixel formats supported by decoder: vdpau cuda vaapi_vld yuv420p
+[   0.197][v][vd] Codec profile: Main (0x4d)
+[   0.198][v][vd] Requesting pixfmt 'vaapi_vld' from decoder.
+[   0.198][d][ffmpeg/video] h264: Reinit context to 1920x1088, pix_fmt: vaapi_vld
+[   0.218][i][vd] Using hardware decoding (vaapi).
+[   0.218][v][vd] Decoder format: 1920x1080 vaapi[nv12] auto/auto/auto/auto/auto CL=mpeg2/4/h264
+[   0.218][v][vd] Using container aspect ratio.
+[   0.218][v][vf] [in] 1920x1080 vaapi[nv12] bt.709/bt.709/bt.1886/limited/display SP=1.000000 CL=mpeg2/4/h264
+[   0.218][v][vf] [userdeint] 1920x1080 vaapi[nv12] bt.709/bt.709/bt.1886/limited/display SP=1.000000 CL=mpeg2/4/h264
+[   0.218][v][vf] [userdeint] (disabled)
+[   0.218][v][vf] [autorotate] 1920x1080 vaapi[nv12] bt.709/bt.709/bt.1886/limited/display SP=1.000000 CL=mpeg2/4/h264
+[   0.218][v][vf] [autorotate] (disabled)
+[   0.218][v][vf] [convert] 1920x1080 vaapi[nv12] bt.709/bt.709/bt.1886/limited/display SP=1.000000 CL=mpeg2/4/h264
+[   0.218][v][vf] [convert] (disabled)
+[   0.218][v][vf] [out] 1920x1080 vaapi[nv12] bt.709/bt.709/bt.1886/limited/display SP=1.000000 CL=mpeg2/4/h264
+[   0.218][v][ao] Trying audio driver 'pulse'
+[   0.218][v][ao/pulse] requested format: 48000 Hz, stereo channels, floatp
+[   0.219][v][ao/pulse] Library version: 14.0.0
+[   0.219][v][ao/pulse] Proto: 34
+[   0.219][v][ao/pulse] Server proto: 4294967295
+[   0.220][v][ao/pulse] Channel layouts:
+[   0.220][v][ao/pulse]  - #fl
+[   0.220][v][ao/pulse]  - #fr
+[   0.220][v][ao/pulse]  - #fc
+[   0.220][v][ao/pulse]  - #lfe
+[   0.220][v][ao/pulse]  - #bl
+[   0.220][v][ao/pulse]  - #br
+[   0.220][v][ao/pulse]  - #flc
+[   0.220][v][ao/pulse]  - #frc
+[   0.220][v][ao/pulse]  - #bc
+[   0.220][v][ao/pulse]  - #sl
+[   0.220][v][ao/pulse]  - #sr
+[   0.220][v][ao/pulse]  - #tc
+[   0.220][v][ao/pulse]  - #tfl
+[   0.220][v][ao/pulse]  - #tfc
+[   0.220][v][ao/pulse]  - #tfr
+[   0.220][v][ao/pulse]  - #tbl
+[   0.220][v][ao/pulse]  - #tbc
+[   0.220][v][ao/pulse]  - #tbr
+[   0.220][v][ao/pulse] result: stereo
+[   0.222][v][ao/pulse] device buffer: 4800 samples.
+[   0.223][v][ao/pulse] using soft-buffer of 9600 samples.
+[   0.223][i][cplayer] AO: [pulse] 48000Hz stereo 2ch float
+[   0.223][v][cplayer] AO: Description: PulseAudio audio output
+[   0.223][v][autoconvert] inserting resampler
+[   0.223][v][swresample] format change, reinitializing resampler
+[   0.223][v][swresample] 48000Hz stereo floatp -> 48000Hz stereo float
+[   0.223][v][af] [out] 48000Hz stereo 2ch float
+[   0.224][i][cplayer] VO: [gpu] 1920x1080 vaapi[nv12]
+[   0.224][v][cplayer] VO: Description: Shader-based GPU Renderer
+[   0.224][v][vo/gpu] reconfig to 1920x1080 vaapi[nv12] bt.709/bt.709/bt.1886/limited/display SP=1.000000 CL=mpeg2/4/h264
+[   0.224][v][vo/gpu/wayland] Reconfiguring!
+[   0.224][d][vo/gpu] screen size: 1920x1080
+[   0.227][v][vo/gpu] Resize: 1344x756
+[   0.227][v][vo/gpu] Window size: 1344x756 (Borders: l=0 t=0 r=0 b=0)
+[   0.227][v][vo/gpu] Video source: 1920x1080 (1:1)
+[   0.227][v][vo/gpu] Video display: (0, 0) 1920x1080 -> (0, 0) 1344x756
+[   0.227][v][vo/gpu] Video scale: 0.700000/0.700000
+[   0.227][v][vo/gpu] OSD borders: l=0 t=0 r=0 b=0
+[   0.227][v][vo/gpu] Video borders: l=0 t=0 r=0 b=0
+[   0.227][v][vo/gpu] Testing FBO format rgba16f
+[   0.227][d][vo/gpu] Resizing texture: 16x16
+[   0.227][v][vo/gpu] Using FBO format rgba16f.
+[   0.227][v][vo/gpu/wayland] Handling resize on the egl side
+[   0.227][v][vo/gpu] Resize: 1344x756
+[   0.227][v][vo/gpu] Window size: 1344x756 (Borders: l=0 t=0 r=0 b=0)
+[   0.227][v][vo/gpu] Video source: 1920x1080 (1:1)
+[   0.227][v][vo/gpu] Video display: (0, 0) 1920x1080 -> (0, 0) 1344x756
+[   0.227][v][vo/gpu] Video scale: 0.700000/0.700000
+[   0.227][v][vo/gpu] OSD borders: l=0 t=0 r=0 b=0
+[   0.227][v][vo/gpu] Video borders: l=0 t=0 r=0 b=0
+[   0.227][v][vo/gpu] Reported display depth: 10
+[   0.228][d][vo/gpu] Resizing texture: 1920x1080
+[   0.244][d][vo/gpu/opengl] vertex shader source:
+[   0.244][d][vo/gpu/opengl] [  1] #version 440
+[   0.244][d][vo/gpu/opengl] [  2] #define tex1D texture
+[   0.244][d][vo/gpu/opengl] [  3] #define tex3D texture
+[   0.244][d][vo/gpu/opengl] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   0.244][d][vo/gpu/opengl] [  5] in vec2 vertex_position;
+[   0.244][d][vo/gpu/opengl] [  6] in vec2 vertex_texcoord0;
+[   0.244][d][vo/gpu/opengl] [  7] out vec2 texcoord0;
+[   0.244][d][vo/gpu/opengl] [  8] void main() {
+[   0.244][d][vo/gpu/opengl] [  9] gl_Position = vec4(vertex_position, 1.0, 1.0);
+[   0.244][d][vo/gpu/opengl] [ 10] texcoord0 = vertex_texcoord0;
+[   0.244][d][vo/gpu/opengl] [ 11] }
+[   0.244][d][vo/gpu/opengl] fragment shader source:
+[   0.244][d][vo/gpu/opengl] [  1] #version 440
+[   0.244][d][vo/gpu/opengl] [  2] #define tex1D texture
+[   0.244][d][vo/gpu/opengl] [  3] #define tex3D texture
+[   0.244][d][vo/gpu/opengl] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   0.244][d][vo/gpu/opengl] [  5] out vec4 out_color;
+[   0.244][d][vo/gpu/opengl] [  6] in vec2 texcoord0;
+[   0.244][d][vo/gpu/opengl] [  7] layout(std140, binding=0) uniform UBO {
+[   0.244][d][vo/gpu/opengl] [  8] layout(offset=0) vec2 texture_size0;
+[   0.244][d][vo/gpu/opengl] [  9] layout(offset=16) mat2 texture_rot0;
+[   0.244][d][vo/gpu/opengl] [ 10] layout(offset=48) vec2 texture_off0;
+[   0.244][d][vo/gpu/opengl] [ 11] layout(offset=56) vec2 pixel_size0;
+[   0.244][d][vo/gpu/opengl] [ 12] };
+[   0.244][d][vo/gpu/opengl] [ 13] uniform float random;
+[   0.244][d][vo/gpu/opengl] [ 14] uniform sampler2D texture0;
+[   0.244][d][vo/gpu/opengl] [ 15] #define HOOKED_raw texture0
+[   0.244][d][vo/gpu/opengl] [ 16] #define HOOKED_pos texcoord0
+[   0.244][d][vo/gpu/opengl] [ 17] #define HOOKED_size texture_size0
+[   0.244][d][vo/gpu/opengl] [ 18] #define HOOKED_rot texture_rot0
+[   0.244][d][vo/gpu/opengl] [ 19] #define HOOKED_off texture_off0
+[   0.244][d][vo/gpu/opengl] [ 20] #define HOOKED_pt pixel_size0
+[   0.244][d][vo/gpu/opengl] [ 21] #define HOOKED_map texmap0
+[   0.244][d][vo/gpu/opengl] [ 22] #define HOOKED_mul 1.000000
+[   0.244][d][vo/gpu/opengl] [ 23] #define HOOKED_tex(pos) (HOOKED_mul * vec4(texture(HOOKED_raw, pos)).rgba)
+[   0.244][d][vo/gpu/opengl] [ 24] #define HOOKED_texOff(off) HOOKED_tex(HOOKED_pos + HOOKED_pt * vec2(off))
+[   0.244][d][vo/gpu/opengl] [ 25] #define LUMA_raw texture0
+[   0.244][d][vo/gpu/opengl] [ 26] #define LUMA_pos texcoord0
+[   0.244][d][vo/gpu/opengl] [ 27] #define LUMA_size texture_size0
+[   0.244][d][vo/gpu/opengl] [ 28] #define LUMA_rot texture_rot0
+[   0.244][d][vo/gpu/opengl] [ 29] #define LUMA_off texture_off0
+[   0.244][d][vo/gpu/opengl] [ 30] #define LUMA_pt pixel_size0
+[   0.244][d][vo/gpu/opengl] [ 31] #define LUMA_map texmap0
+[   0.244][d][vo/gpu/opengl] [ 32] #define LUMA_mul 1.000000
+[   0.244][d][vo/gpu/opengl] [ 33] #define LUMA_tex(pos) (LUMA_mul * vec4(texture(LUMA_raw, pos)).rgba)
+[   0.244][d][vo/gpu/opengl] [ 34] #define LUMA_texOff(off) LUMA_tex(LUMA_pos + LUMA_pt * vec2(off))
+[   0.244][d][vo/gpu/opengl] [ 35] float mod289(float x) { return x - floor(x * 1.0/289.0) * 289.0; }
+[   0.244][d][vo/gpu/opengl] [ 36] float permute(float x) {
+[   0.244][d][vo/gpu/opengl] [ 37] return mod289( mod289(34.0*x + 1.0) * (fract(x) + 1.0) );
+[   0.244][d][vo/gpu/opengl] [ 38] }
+[   0.244][d][vo/gpu/opengl] [ 39] float rand(float x) { return fract(x * 1.0/41.0); }
+[   0.244][d][vo/gpu/opengl] [ 40] vec4 average(float range, inout float h) {
+[   0.244][d][vo/gpu/opengl] [ 41] float dist = rand(h) * range; h = permute(h);
+[   0.244][d][vo/gpu/opengl] [ 42] float dir = rand(h) * 6.2831853; h = permute(h);
+[   0.244][d][vo/gpu/opengl] [ 43] vec2 o = dist * vec2(cos(dir), sin(dir));
+[   0.244][d][vo/gpu/opengl] [ 44] vec4 ref[4];
+[   0.244][d][vo/gpu/opengl] [ 45] ref[0] = HOOKED_texOff(vec2( o.x, o.y));
+[   0.244][d][vo/gpu/opengl] [ 46] ref[1] = HOOKED_texOff(vec2(-o.y, o.x));
+[   0.244][d][vo/gpu/opengl] [ 47] ref[2] = HOOKED_texOff(vec2(-o.x, -o.y));
+[   0.244][d][vo/gpu/opengl] [ 48] ref[3] = HOOKED_texOff(vec2( o.y, -o.x));
+[   0.244][d][vo/gpu/opengl] [ 49] return (ref[0] + ref[1] + ref[2] + ref[3])*0.25;
+[   0.244][d][vo/gpu/opengl] [ 50] }
+[   0.244][d][vo/gpu/opengl] [ 51] void main() {
+[   0.244][d][vo/gpu/opengl] [ 52] vec4 color = vec4(0.0, 0.0, 0.0, 1.0);
+[   0.244][d][vo/gpu/opengl] [ 53] {
+[   0.244][d][vo/gpu/opengl] [ 54] vec3 _m = vec3(HOOKED_pos, random) + vec3(1.0);
+[   0.244][d][vo/gpu/opengl] [ 55] float h = permute(permute(permute(_m.x)+_m.y)+_m.z);
+[   0.244][d][vo/gpu/opengl] [ 56] color = HOOKED_tex(HOOKED_pos);
+[   0.244][d][vo/gpu/opengl] [ 57] vec4 avg, diff;
+[   0.244][d][vo/gpu/opengl] [ 58] avg = average(16.000000, h);
+[   0.244][d][vo/gpu/opengl] [ 59] diff = abs(color - avg);
+[   0.244][d][vo/gpu/opengl] [ 60] color = mix(avg, color, greaterThan(diff, vec4(0.003906)));
+[   0.244][d][vo/gpu/opengl] [ 61] vec3 noise;
+[   0.244][d][vo/gpu/opengl] [ 62] noise.x = rand(h); h = permute(h);
+[   0.244][d][vo/gpu/opengl] [ 63] noise.y = rand(h); h = permute(h);
+[   0.244][d][vo/gpu/opengl] [ 64] noise.z = rand(h); h = permute(h);
+[   0.244][d][vo/gpu/opengl] [ 65] color.xyz += 0.005859 * (noise - vec3(0.5));
+[   0.244][d][vo/gpu/opengl] [ 66] }
+[   0.244][d][vo/gpu/opengl] [ 67] color.g = 0.000000;
+[   0.244][d][vo/gpu/opengl] [ 68] color.b = 0.000000;
+[   0.244][d][vo/gpu/opengl] [ 69] color.a = 1.000000;
+[   0.244][d][vo/gpu/opengl] [ 70] out_color = color;
+[   0.244][d][vo/gpu/opengl] [ 71] }
+[   0.245][d][vo/gpu/opengl] shader link log (status=1): 
+[   0.245][d][vo/gpu] Resizing texture: 960x540
+[   0.249][d][vo/gpu/opengl] vertex shader source:
+[   0.249][d][vo/gpu/opengl] [  1] #version 440
+[   0.249][d][vo/gpu/opengl] [  2] #define tex1D texture
+[   0.249][d][vo/gpu/opengl] [  3] #define tex3D texture
+[   0.249][d][vo/gpu/opengl] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   0.249][d][vo/gpu/opengl] [  5] in vec2 vertex_position;
+[   0.249][d][vo/gpu/opengl] [  6] in vec2 vertex_texcoord0;
+[   0.249][d][vo/gpu/opengl] [  7] out vec2 texcoord0;
+[   0.249][d][vo/gpu/opengl] [  8] void main() {
+[   0.249][d][vo/gpu/opengl] [  9] gl_Position = vec4(vertex_position, 1.0, 1.0);
+[   0.249][d][vo/gpu/opengl] [ 10] texcoord0 = vertex_texcoord0;
+[   0.249][d][vo/gpu/opengl] [ 11] }
+[   0.249][d][vo/gpu/opengl] fragment shader source:
+[   0.249][d][vo/gpu/opengl] [  1] #version 440
+[   0.249][d][vo/gpu/opengl] [  2] #define tex1D texture
+[   0.249][d][vo/gpu/opengl] [  3] #define tex3D texture
+[   0.249][d][vo/gpu/opengl] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   0.249][d][vo/gpu/opengl] [  5] out vec4 out_color;
+[   0.249][d][vo/gpu/opengl] [  6] in vec2 texcoord0;
+[   0.249][d][vo/gpu/opengl] [  7] layout(std140, binding=0) uniform UBO {
+[   0.249][d][vo/gpu/opengl] [  8] layout(offset=0) vec2 texture_size0;
+[   0.249][d][vo/gpu/opengl] [  9] layout(offset=16) mat2 texture_rot0;
+[   0.249][d][vo/gpu/opengl] [ 10] layout(offset=48) vec2 texture_off0;
+[   0.249][d][vo/gpu/opengl] [ 11] layout(offset=56) vec2 pixel_size0;
+[   0.249][d][vo/gpu/opengl] [ 12] };
+[   0.249][d][vo/gpu/opengl] [ 13] uniform float random;
+[   0.249][d][vo/gpu/opengl] [ 14] uniform sampler2D texture0;
+[   0.249][d][vo/gpu/opengl] [ 15] #define HOOKED_raw texture0
+[   0.249][d][vo/gpu/opengl] [ 16] #define HOOKED_pos texcoord0
+[   0.249][d][vo/gpu/opengl] [ 17] #define HOOKED_size texture_size0
+[   0.249][d][vo/gpu/opengl] [ 18] #define HOOKED_rot texture_rot0
+[   0.249][d][vo/gpu/opengl] [ 19] #define HOOKED_off texture_off0
+[   0.249][d][vo/gpu/opengl] [ 20] #define HOOKED_pt pixel_size0
+[   0.249][d][vo/gpu/opengl] [ 21] #define HOOKED_map texmap0
+[   0.249][d][vo/gpu/opengl] [ 22] #define HOOKED_mul 1.000000
+[   0.249][d][vo/gpu/opengl] [ 23] #define HOOKED_tex(pos) (HOOKED_mul * vec4(texture(HOOKED_raw, pos)).rgba)
+[   0.249][d][vo/gpu/opengl] [ 24] #define HOOKED_texOff(off) HOOKED_tex(HOOKED_pos + HOOKED_pt * vec2(off))
+[   0.249][d][vo/gpu/opengl] [ 25] #define CHROMA_raw texture0
+[   0.249][d][vo/gpu/opengl] [ 26] #define CHROMA_pos texcoord0
+[   0.249][d][vo/gpu/opengl] [ 27] #define CHROMA_size texture_size0
+[   0.249][d][vo/gpu/opengl] [ 28] #define CHROMA_rot texture_rot0
+[   0.249][d][vo/gpu/opengl] [ 29] #define CHROMA_off texture_off0
+[   0.249][d][vo/gpu/opengl] [ 30] #define CHROMA_pt pixel_size0
+[   0.249][d][vo/gpu/opengl] [ 31] #define CHROMA_map texmap0
+[   0.249][d][vo/gpu/opengl] [ 32] #define CHROMA_mul 1.000000
+[   0.249][d][vo/gpu/opengl] [ 33] #define CHROMA_tex(pos) (CHROMA_mul * vec4(texture(CHROMA_raw, pos)).rgba)
+[   0.249][d][vo/gpu/opengl] [ 34] #define CHROMA_texOff(off) CHROMA_tex(CHROMA_pos + CHROMA_pt * vec2(off))
+[   0.249][d][vo/gpu/opengl] [ 35] float mod289(float x) { return x - floor(x * 1.0/289.0) * 289.0; }
+[   0.249][d][vo/gpu/opengl] [ 36] float permute(float x) {
+[   0.249][d][vo/gpu/opengl] [ 37] return mod289( mod289(34.0*x + 1.0) * (fract(x) + 1.0) );
+[   0.249][d][vo/gpu/opengl] [ 38] }
+[   0.249][d][vo/gpu/opengl] [ 39] float rand(float x) { return fract(x * 1.0/41.0); }
+[   0.249][d][vo/gpu/opengl] [ 40] vec4 average(float range, inout float h) {
+[   0.249][d][vo/gpu/opengl] [ 41] float dist = rand(h) * range; h = permute(h);
+[   0.249][d][vo/gpu/opengl] [ 42] float dir = rand(h) * 6.2831853; h = permute(h);
+[   0.249][d][vo/gpu/opengl] [ 43] vec2 o = dist * vec2(cos(dir), sin(dir));
+[   0.249][d][vo/gpu/opengl] [ 44] vec4 ref[4];
+[   0.249][d][vo/gpu/opengl] [ 45] ref[0] = HOOKED_texOff(vec2( o.x, o.y));
+[   0.249][d][vo/gpu/opengl] [ 46] ref[1] = HOOKED_texOff(vec2(-o.y, o.x));
+[   0.249][d][vo/gpu/opengl] [ 47] ref[2] = HOOKED_texOff(vec2(-o.x, -o.y));
+[   0.249][d][vo/gpu/opengl] [ 48] ref[3] = HOOKED_texOff(vec2( o.y, -o.x));
+[   0.249][d][vo/gpu/opengl] [ 49] return (ref[0] + ref[1] + ref[2] + ref[3])*0.25;
+[   0.249][d][vo/gpu/opengl] [ 50] }
+[   0.249][d][vo/gpu/opengl] [ 51] void main() {
+[   0.249][d][vo/gpu/opengl] [ 52] vec4 color = vec4(0.0, 0.0, 0.0, 1.0);
+[   0.249][d][vo/gpu/opengl] [ 53] {
+[   0.249][d][vo/gpu/opengl] [ 54] vec3 _m = vec3(HOOKED_pos, random) + vec3(1.0);
+[   0.249][d][vo/gpu/opengl] [ 55] float h = permute(permute(permute(_m.x)+_m.y)+_m.z);
+[   0.249][d][vo/gpu/opengl] [ 56] color = HOOKED_tex(HOOKED_pos);
+[   0.249][d][vo/gpu/opengl] [ 57] vec4 avg, diff;
+[   0.249][d][vo/gpu/opengl] [ 58] avg = average(16.000000, h);
+[   0.249][d][vo/gpu/opengl] [ 59] diff = abs(color - avg);
+[   0.249][d][vo/gpu/opengl] [ 60] color = mix(avg, color, greaterThan(diff, vec4(0.003906)));
+[   0.249][d][vo/gpu/opengl] [ 61] vec3 noise;
+[   0.249][d][vo/gpu/opengl] [ 62] noise.x = rand(h); h = permute(h);
+[   0.249][d][vo/gpu/opengl] [ 63] noise.y = rand(h); h = permute(h);
+[   0.249][d][vo/gpu/opengl] [ 64] noise.z = rand(h); h = permute(h);
+[   0.249][d][vo/gpu/opengl] [ 65] color.xyz += 0.005859 * (noise - vec3(0.5));
+[   0.249][d][vo/gpu/opengl] [ 66] }
+[   0.249][d][vo/gpu/opengl] [ 67] color.b = 0.000000;
+[   0.249][d][vo/gpu/opengl] [ 68] color.a = 1.000000;
+[   0.249][d][vo/gpu/opengl] [ 69] out_color = color;
+[   0.249][d][vo/gpu/opengl] [ 70] }
+[   0.249][d][vo/gpu/opengl] shader link log (status=1): 
+[   0.261][d][vo/gpu] Resizing texture: 960x1080
+[   0.261][d][vo/gpu/opengl] vertex shader source:
+[   0.261][d][vo/gpu/opengl] [  1] #version 440
+[   0.261][d][vo/gpu/opengl] [  2] #define tex1D texture
+[   0.261][d][vo/gpu/opengl] [  3] #define tex3D texture
+[   0.261][d][vo/gpu/opengl] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   0.261][d][vo/gpu/opengl] [  5] in vec2 vertex_position;
+[   0.261][d][vo/gpu/opengl] [  6] in vec2 vertex_texcoord0;
+[   0.261][d][vo/gpu/opengl] [  7] out vec2 texcoord0;
+[   0.261][d][vo/gpu/opengl] [  8] void main() {
+[   0.261][d][vo/gpu/opengl] [  9] gl_Position = vec4(vertex_position, 1.0, 1.0);
+[   0.261][d][vo/gpu/opengl] [ 10] texcoord0 = vertex_texcoord0;
+[   0.261][d][vo/gpu/opengl] [ 11] }
+[   0.261][d][vo/gpu/opengl] fragment shader source:
+[   0.261][d][vo/gpu/opengl] [  1] #version 440
+[   0.261][d][vo/gpu/opengl] [  2] #define tex1D texture
+[   0.261][d][vo/gpu/opengl] [  3] #define tex3D texture
+[   0.261][d][vo/gpu/opengl] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   0.261][d][vo/gpu/opengl] [  5] out vec4 out_color;
+[   0.261][d][vo/gpu/opengl] [  6] in vec2 texcoord0;
+[   0.261][d][vo/gpu/opengl] [  7] layout(std140, binding=0) uniform UBO {
+[   0.261][d][vo/gpu/opengl] [  8] layout(offset=0) vec2 texture_size0;
+[   0.261][d][vo/gpu/opengl] [  9] layout(offset=16) mat2 texture_rot0;
+[   0.261][d][vo/gpu/opengl] [ 10] layout(offset=48) vec2 texture_off0;
+[   0.261][d][vo/gpu/opengl] [ 11] layout(offset=56) vec2 pixel_size0;
+[   0.261][d][vo/gpu/opengl] [ 12] };
+[   0.261][d][vo/gpu/opengl] [ 13] uniform sampler2D lut;
+[   0.261][d][vo/gpu/opengl] [ 14] uniform sampler2D texture0;
+[   0.261][d][vo/gpu/opengl] [ 15] void main() {
+[   0.261][d][vo/gpu/opengl] [ 16] vec4 color = vec4(0.0, 0.0, 0.0, 1.0);
+[   0.261][d][vo/gpu/opengl] [ 17] // upscaling plane 1
+[   0.261][d][vo/gpu/opengl] [ 18] #undef tex
+[   0.261][d][vo/gpu/opengl] [ 19] #undef texmap
+[   0.261][d][vo/gpu/opengl] [ 20] #define tex texture0
+[   0.261][d][vo/gpu/opengl] [ 21] #define texmap texmap0
+[   0.261][d][vo/gpu/opengl] [ 22] vec2 pos = texcoord0;
+[   0.261][d][vo/gpu/opengl] [ 23] vec2 size = texture_size0;
+[   0.261][d][vo/gpu/opengl] [ 24] vec2 pt = pixel_size0;
+[   0.261][d][vo/gpu/opengl] [ 25] // first pass
+[   0.261][d][vo/gpu/opengl] [ 26] color = vec4(0.0);
+[   0.261][d][vo/gpu/opengl] [ 27] {
+[   0.261][d][vo/gpu/opengl] [ 28] vec2 dir = vec2(0.0, 1.0);
+[   0.261][d][vo/gpu/opengl] [ 29] pt *= dir;
+[   0.261][d][vo/gpu/opengl] [ 30] float fcoord = dot(fract(pos * size - vec2(0.5)), dir);
+[   0.261][d][vo/gpu/opengl] [ 31] vec2 base = pos - fcoord * pt - pt * vec2(2.0);
+[   0.261][d][vo/gpu/opengl] [ 32] vec4 c;
+[   0.261][d][vo/gpu/opengl] [ 33] float ypos = LUT_POS(fcoord, 64.0);
+[   0.261][d][vo/gpu/opengl] [ 34] float weights[6];
+[   0.261][d][vo/gpu/opengl] [ 35] c = texture(lut, vec2(0.250000, ypos));
+[   0.261][d][vo/gpu/opengl] [ 36] weights[0] = c[0];
+[   0.261][d][vo/gpu/opengl] [ 37] weights[1] = c[1];
+[   0.261][d][vo/gpu/opengl] [ 38] weights[2] = c[2];
+[   0.261][d][vo/gpu/opengl] [ 39] weights[3] = c[3];
+[   0.261][d][vo/gpu/opengl] [ 40] c = texture(lut, vec2(0.750000, ypos));
+[   0.261][d][vo/gpu/opengl] [ 41] weights[4] = c[0];
+[   0.261][d][vo/gpu/opengl] [ 42] weights[5] = c[1];
+[   0.261][d][vo/gpu/opengl] [ 43] // scaler samples
+[   0.261][d][vo/gpu/opengl] [ 44] c = texture(tex, base + pt * vec2(0.0));
+[   0.261][d][vo/gpu/opengl] [ 45] color += vec4(weights[0]) * c;
+[   0.261][d][vo/gpu/opengl] [ 46] c = texture(tex, base + pt * vec2(1.0));
+[   0.261][d][vo/gpu/opengl] [ 47] color += vec4(weights[1]) * c;
+[   0.261][d][vo/gpu/opengl] [ 48] c = texture(tex, base + pt * vec2(2.0));
+[   0.261][d][vo/gpu/opengl] [ 49] color += vec4(weights[2]) * c;
+[   0.261][d][vo/gpu/opengl] [ 50] c = texture(tex, base + pt * vec2(3.0));
+[   0.261][d][vo/gpu/opengl] [ 51] color += vec4(weights[3]) * c;
+[   0.261][d][vo/gpu/opengl] [ 52] c = texture(tex, base + pt * vec2(4.0));
+[   0.261][d][vo/gpu/opengl] [ 53] color += vec4(weights[4]) * c;
+[   0.261][d][vo/gpu/opengl] [ 54] c = texture(tex, base + pt * vec2(5.0));
+[   0.261][d][vo/gpu/opengl] [ 55] color += vec4(weights[5]) * c;
+[   0.261][d][vo/gpu/opengl] [ 56] }
+[   0.261][d][vo/gpu/opengl] [ 57] color *= 1.000000;
+[   0.261][d][vo/gpu/opengl] [ 58] out_color = color;
+[   0.261][d][vo/gpu/opengl] [ 59] }
+[   0.261][d][vo/gpu/opengl] shader link log (status=1): 
+[   0.261][d][vo/gpu] Resizing texture: 1920x1080
+[   0.262][d][vo/gpu/opengl] vertex shader source:
+[   0.262][d][vo/gpu/opengl] [  1] #version 440
+[   0.262][d][vo/gpu/opengl] [  2] #define tex1D texture
+[   0.262][d][vo/gpu/opengl] [  3] #define tex3D texture
+[   0.262][d][vo/gpu/opengl] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   0.262][d][vo/gpu/opengl] [  5] in vec2 vertex_position;
+[   0.262][d][vo/gpu/opengl] [  6] in vec2 vertex_texcoord0;
+[   0.262][d][vo/gpu/opengl] [  7] out vec2 texcoord0;
+[   0.262][d][vo/gpu/opengl] [  8] void main() {
+[   0.262][d][vo/gpu/opengl] [  9] gl_Position = vec4(vertex_position, 1.0, 1.0);
+[   0.262][d][vo/gpu/opengl] [ 10] texcoord0 = vertex_texcoord0;
+[   0.262][d][vo/gpu/opengl] [ 11] }
+[   0.262][d][vo/gpu/opengl] fragment shader source:
+[   0.262][d][vo/gpu/opengl] [  1] #version 440
+[   0.262][d][vo/gpu/opengl] [  2] #define tex1D texture
+[   0.262][d][vo/gpu/opengl] [  3] #define tex3D texture
+[   0.262][d][vo/gpu/opengl] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   0.262][d][vo/gpu/opengl] [  5] out vec4 out_color;
+[   0.262][d][vo/gpu/opengl] [  6] in vec2 texcoord0;
+[   0.262][d][vo/gpu/opengl] [  7] layout(std140, binding=0) uniform UBO {
+[   0.262][d][vo/gpu/opengl] [  8] layout(offset=0) vec2 texture_size0;
+[   0.262][d][vo/gpu/opengl] [  9] layout(offset=16) mat2 texture_rot0;
+[   0.262][d][vo/gpu/opengl] [ 10] layout(offset=48) vec2 texture_off0;
+[   0.262][d][vo/gpu/opengl] [ 11] layout(offset=56) vec2 pixel_size0;
+[   0.262][d][vo/gpu/opengl] [ 12] };
+[   0.262][d][vo/gpu/opengl] [ 13] uniform sampler2D lut;
+[   0.262][d][vo/gpu/opengl] [ 14] uniform sampler2D texture0;
+[   0.262][d][vo/gpu/opengl] [ 15] void main() {
+[   0.262][d][vo/gpu/opengl] [ 16] vec4 color = vec4(0.0, 0.0, 0.0, 1.0);
+[   0.262][d][vo/gpu/opengl] [ 17] #undef tex
+[   0.262][d][vo/gpu/opengl] [ 18] #undef texmap
+[   0.262][d][vo/gpu/opengl] [ 19] #define tex texture0
+[   0.262][d][vo/gpu/opengl] [ 20] #define texmap texmap0
+[   0.262][d][vo/gpu/opengl] [ 21] vec2 pos = texcoord0;
+[   0.262][d][vo/gpu/opengl] [ 22] vec2 size = texture_size0;
+[   0.262][d][vo/gpu/opengl] [ 23] vec2 pt = pixel_size0;
+[   0.262][d][vo/gpu/opengl] [ 24] color = vec4(0.0);
+[   0.262][d][vo/gpu/opengl] [ 25] {
+[   0.262][d][vo/gpu/opengl] [ 26] vec2 dir = vec2(1.0, 0.0);
+[   0.262][d][vo/gpu/opengl] [ 27] pt *= dir;
+[   0.262][d][vo/gpu/opengl] [ 28] float fcoord = dot(fract(pos * size - vec2(0.5)), dir);
+[   0.262][d][vo/gpu/opengl] [ 29] vec2 base = pos - fcoord * pt - pt * vec2(2.0);
+[   0.262][d][vo/gpu/opengl] [ 30] vec4 c;
+[   0.262][d][vo/gpu/opengl] [ 31] float ypos = LUT_POS(fcoord, 64.0);
+[   0.262][d][vo/gpu/opengl] [ 32] float weights[6];
+[   0.262][d][vo/gpu/opengl] [ 33] c = texture(lut, vec2(0.250000, ypos));
+[   0.262][d][vo/gpu/opengl] [ 34] weights[0] = c[0];
+[   0.262][d][vo/gpu/opengl] [ 35] weights[1] = c[1];
+[   0.262][d][vo/gpu/opengl] [ 36] weights[2] = c[2];
+[   0.262][d][vo/gpu/opengl] [ 37] weights[3] = c[3];
+[   0.262][d][vo/gpu/opengl] [ 38] c = texture(lut, vec2(0.750000, ypos));
+[   0.262][d][vo/gpu/opengl] [ 39] weights[4] = c[0];
+[   0.262][d][vo/gpu/opengl] [ 40] weights[5] = c[1];
+[   0.262][d][vo/gpu/opengl] [ 41] // scaler samples
+[   0.262][d][vo/gpu/opengl] [ 42] c = texture(tex, base + pt * vec2(0.0));
+[   0.262][d][vo/gpu/opengl] [ 43] color += vec4(weights[0]) * c;
+[   0.262][d][vo/gpu/opengl] [ 44] c = texture(tex, base + pt * vec2(1.0));
+[   0.262][d][vo/gpu/opengl] [ 45] color += vec4(weights[1]) * c;
+[   0.262][d][vo/gpu/opengl] [ 46] c = texture(tex, base + pt * vec2(2.0));
+[   0.262][d][vo/gpu/opengl] [ 47] color += vec4(weights[2]) * c;
+[   0.262][d][vo/gpu/opengl] [ 48] c = texture(tex, base + pt * vec2(3.0));
+[   0.262][d][vo/gpu/opengl] [ 49] color += vec4(weights[3]) * c;
+[   0.262][d][vo/gpu/opengl] [ 50] c = texture(tex, base + pt * vec2(4.0));
+[   0.262][d][vo/gpu/opengl] [ 51] color += vec4(weights[4]) * c;
+[   0.262][d][vo/gpu/opengl] [ 52] c = texture(tex, base + pt * vec2(5.0));
+[   0.262][d][vo/gpu/opengl] [ 53] color += vec4(weights[5]) * c;
+[   0.262][d][vo/gpu/opengl] [ 54] }
+[   0.262][d][vo/gpu/opengl] [ 55] color.b = 0.000000;
+[   0.262][d][vo/gpu/opengl] [ 56] color.a = 1.000000;
+[   0.262][d][vo/gpu/opengl] [ 57] out_color = color;
+[   0.262][d][vo/gpu/opengl] [ 58] }
+[   0.262][d][vo/gpu/opengl] shader link log (status=1): 
+[   0.262][d][vo/gpu] Resizing texture: 1920x1080
+[   0.263][d][vo/gpu/opengl] vertex shader source:
+[   0.263][d][vo/gpu/opengl] [  1] #version 440
+[   0.263][d][vo/gpu/opengl] [  2] #define tex1D texture
+[   0.263][d][vo/gpu/opengl] [  3] #define tex3D texture
+[   0.263][d][vo/gpu/opengl] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   0.263][d][vo/gpu/opengl] [  5] in vec2 vertex_position;
+[   0.263][d][vo/gpu/opengl] [  6] in vec2 vertex_texcoord0;
+[   0.263][d][vo/gpu/opengl] [  7] out vec2 texcoord0;
+[   0.263][d][vo/gpu/opengl] [  8] in vec2 vertex_texcoord1;
+[   0.263][d][vo/gpu/opengl] [  9] out vec2 texcoord1;
+[   0.263][d][vo/gpu/opengl] [ 10] void main() {
+[   0.263][d][vo/gpu/opengl] [ 11] gl_Position = vec4(vertex_position, 1.0, 1.0);
+[   0.263][d][vo/gpu/opengl] [ 12] texcoord0 = vertex_texcoord0;
+[   0.263][d][vo/gpu/opengl] [ 13] texcoord1 = vertex_texcoord1;
+[   0.263][d][vo/gpu/opengl] [ 14] }
+[   0.263][d][vo/gpu/opengl] fragment shader source:
+[   0.263][d][vo/gpu/opengl] [  1] #version 440
+[   0.263][d][vo/gpu/opengl] [  2] #define tex1D texture
+[   0.263][d][vo/gpu/opengl] [  3] #define tex3D texture
+[   0.263][d][vo/gpu/opengl] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   0.263][d][vo/gpu/opengl] [  5] out vec4 out_color;
+[   0.263][d][vo/gpu/opengl] [  6] in vec2 texcoord0;
+[   0.263][d][vo/gpu/opengl] [  7] in vec2 texcoord1;
+[   0.263][d][vo/gpu/opengl] [  8] layout(std140, binding=0) uniform UBO {
+[   0.263][d][vo/gpu/opengl] [  9] layout(offset=0) mat3 colormatrix;
+[   0.263][d][vo/gpu/opengl] [ 10] layout(offset=48) vec3 colormatrix_c;
+[   0.263][d][vo/gpu/opengl] [ 11] layout(offset=64) vec2 texture_size0;
+[   0.263][d][vo/gpu/opengl] [ 12] layout(offset=80) mat2 texture_rot0;
+[   0.263][d][vo/gpu/opengl] [ 13] layout(offset=112) vec2 texture_off0;
+[   0.263][d][vo/gpu/opengl] [ 14] layout(offset=120) vec2 pixel_size0;
+[   0.263][d][vo/gpu/opengl] [ 15] layout(offset=128) vec2 texture_size1;
+[   0.263][d][vo/gpu/opengl] [ 16] layout(offset=144) mat2 texture_rot1;
+[   0.263][d][vo/gpu/opengl] [ 17] layout(offset=176) vec2 texture_off1;
+[   0.263][d][vo/gpu/opengl] [ 18] layout(offset=184) vec2 pixel_size1;
+[   0.263][d][vo/gpu/opengl] [ 19] };
+[   0.263][d][vo/gpu/opengl] [ 20] uniform sampler2D texture0;
+[   0.263][d][vo/gpu/opengl] [ 21] uniform sampler2D texture1;
+[   0.263][d][vo/gpu/opengl] [ 22] void main() {
+[   0.263][d][vo/gpu/opengl] [ 23] vec4 color = vec4(0.0, 0.0, 0.0, 1.0);
+[   0.263][d][vo/gpu/opengl] [ 24] color.r = 1.000000 * vec4(texture(texture0, texcoord0)).r;
+[   0.263][d][vo/gpu/opengl] [ 25] color.gb = 1.000000 * vec4(texture(texture1, texcoord1)).rg;
+[   0.263][d][vo/gpu/opengl] [ 26] color = color.rgbr;
+[   0.263][d][vo/gpu/opengl] [ 27] color.rgb = mat3(colormatrix) * color.rgb + colormatrix_c;
+[   0.263][d][vo/gpu/opengl] [ 28] color.a = 1.0;
+[   0.263][d][vo/gpu/opengl] [ 29] // scaler pre-conversion
+[   0.263][d][vo/gpu/opengl] [ 30] // linearize
+[   0.263][d][vo/gpu/opengl] [ 31] color.rgb = clamp(color.rgb, 0.0, 1.0);
+[   0.263][d][vo/gpu/opengl] [ 32] color.rgb = pow(color.rgb, vec3(2.4));
+[   0.263][d][vo/gpu/opengl] [ 33] color.rgb *= vec3(1.0/1.000000);
+[   0.263][d][vo/gpu/opengl] [ 34] // main scaling
+[   0.263][d][vo/gpu/opengl] [ 35] out_color = color;
+[   0.263][d][vo/gpu/opengl] [ 36] }
+[   0.263][d][vo/gpu/opengl] shader link log (status=1): 
+[   0.265][d][vo/gpu] Resizing texture: 1920x756
+[   0.266][d][vo/gpu/opengl] vertex shader source:
+[   0.266][d][vo/gpu/opengl] [  1] #version 440
+[   0.266][d][vo/gpu/opengl] [  2] #define tex1D texture
+[   0.266][d][vo/gpu/opengl] [  3] #define tex3D texture
+[   0.266][d][vo/gpu/opengl] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   0.266][d][vo/gpu/opengl] [  5] in vec2 vertex_position;
+[   0.266][d][vo/gpu/opengl] [  6] in vec2 vertex_texcoord0;
+[   0.266][d][vo/gpu/opengl] [  7] out vec2 texcoord0;
+[   0.266][d][vo/gpu/opengl] [  8] void main() {
+[   0.266][d][vo/gpu/opengl] [  9] gl_Position = vec4(vertex_position, 1.0, 1.0);
+[   0.266][d][vo/gpu/opengl] [ 10] texcoord0 = vertex_texcoord0;
+[   0.266][d][vo/gpu/opengl] [ 11] }
+[   0.266][d][vo/gpu/opengl] fragment shader source:
+[   0.266][d][vo/gpu/opengl] [  1] #version 440
+[   0.266][d][vo/gpu/opengl] [  2] #define tex1D texture
+[   0.266][d][vo/gpu/opengl] [  3] #define tex3D texture
+[   0.266][d][vo/gpu/opengl] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   0.266][d][vo/gpu/opengl] [  5] out vec4 out_color;
+[   0.266][d][vo/gpu/opengl] [  6] in vec2 texcoord0;
+[   0.266][d][vo/gpu/opengl] [  7] layout(std140, binding=0) uniform UBO {
+[   0.266][d][vo/gpu/opengl] [  8] layout(offset=0) vec2 texture_size0;
+[   0.266][d][vo/gpu/opengl] [  9] layout(offset=16) mat2 texture_rot0;
+[   0.266][d][vo/gpu/opengl] [ 10] layout(offset=48) vec2 texture_off0;
+[   0.266][d][vo/gpu/opengl] [ 11] layout(offset=56) vec2 pixel_size0;
+[   0.266][d][vo/gpu/opengl] [ 12] };
+[   0.266][d][vo/gpu/opengl] [ 13] uniform sampler2D lut;
+[   0.266][d][vo/gpu/opengl] [ 14] uniform sampler2D texture0;
+[   0.266][d][vo/gpu/opengl] [ 15] void main() {
+[   0.266][d][vo/gpu/opengl] [ 16] vec4 color = vec4(0.0, 0.0, 0.0, 1.0);
+[   0.266][d][vo/gpu/opengl] [ 17] #undef tex
+[   0.266][d][vo/gpu/opengl] [ 18] #undef texmap
+[   0.266][d][vo/gpu/opengl] [ 19] #define tex texture0
+[   0.266][d][vo/gpu/opengl] [ 20] #define texmap texmap0
+[   0.266][d][vo/gpu/opengl] [ 21] vec2 pos = texcoord0;
+[   0.266][d][vo/gpu/opengl] [ 22] vec2 size = texture_size0;
+[   0.266][d][vo/gpu/opengl] [ 23] vec2 pt = pixel_size0;
+[   0.266][d][vo/gpu/opengl] [ 24] // first pass
+[   0.266][d][vo/gpu/opengl] [ 25] color = vec4(0.0);
+[   0.266][d][vo/gpu/opengl] [ 26] {
+[   0.266][d][vo/gpu/opengl] [ 27] vec2 dir = vec2(0.0, 1.0);
+[   0.266][d][vo/gpu/opengl] [ 28] pt *= dir;
+[   0.266][d][vo/gpu/opengl] [ 29] float fcoord = dot(fract(pos * size - vec2(0.5)), dir);
+[   0.266][d][vo/gpu/opengl] [ 30] vec2 base = pos - fcoord * pt - pt * vec2(2.0);
+[   0.266][d][vo/gpu/opengl] [ 31] vec4 c;
+[   0.266][d][vo/gpu/opengl] [ 32] float ypos = LUT_POS(fcoord, 64.0);
+[   0.266][d][vo/gpu/opengl] [ 33] float weights[6];
+[   0.266][d][vo/gpu/opengl] [ 34] c = texture(lut, vec2(0.250000, ypos));
+[   0.266][d][vo/gpu/opengl] [ 35] weights[0] = c[0];
+[   0.266][d][vo/gpu/opengl] [ 36] weights[1] = c[1];
+[   0.266][d][vo/gpu/opengl] [ 37] weights[2] = c[2];
+[   0.266][d][vo/gpu/opengl] [ 38] weights[3] = c[3];
+[   0.266][d][vo/gpu/opengl] [ 39] c = texture(lut, vec2(0.750000, ypos));
+[   0.266][d][vo/gpu/opengl] [ 40] weights[4] = c[0];
+[   0.266][d][vo/gpu/opengl] [ 41] weights[5] = c[1];
+[   0.266][d][vo/gpu/opengl] [ 42] // scaler samples
+[   0.266][d][vo/gpu/opengl] [ 43] c = texture(tex, base + pt * vec2(0.0));
+[   0.266][d][vo/gpu/opengl] [ 44] color += vec4(weights[0]) * c;
+[   0.266][d][vo/gpu/opengl] [ 45] c = texture(tex, base + pt * vec2(1.0));
+[   0.266][d][vo/gpu/opengl] [ 46] color += vec4(weights[1]) * c;
+[   0.266][d][vo/gpu/opengl] [ 47] c = texture(tex, base + pt * vec2(2.0));
+[   0.266][d][vo/gpu/opengl] [ 48] color += vec4(weights[2]) * c;
+[   0.266][d][vo/gpu/opengl] [ 49] c = texture(tex, base + pt * vec2(3.0));
+[   0.266][d][vo/gpu/opengl] [ 50] color += vec4(weights[3]) * c;
+[   0.266][d][vo/gpu/opengl] [ 51] c = texture(tex, base + pt * vec2(4.0));
+[   0.266][d][vo/gpu/opengl] [ 52] color += vec4(weights[4]) * c;
+[   0.266][d][vo/gpu/opengl] [ 53] c = texture(tex, base + pt * vec2(5.0));
+[   0.266][d][vo/gpu/opengl] [ 54] color += vec4(weights[5]) * c;
+[   0.266][d][vo/gpu/opengl] [ 55] }
+[   0.266][d][vo/gpu/opengl] [ 56] color *= 1.000000;
+[   0.266][d][vo/gpu/opengl] [ 57] out_color = color;
+[   0.266][d][vo/gpu/opengl] [ 58] }
+[   0.266][d][vo/gpu/opengl] shader link log (status=1): 
+[   0.266][v][vo/gpu] Dither to 10.
+[   0.314][d][vo/gpu/opengl] vertex shader source:
+[   0.314][d][vo/gpu/opengl] [  1] #version 440
+[   0.314][d][vo/gpu/opengl] [  2] #define tex1D texture
+[   0.314][d][vo/gpu/opengl] [  3] #define tex3D texture
+[   0.314][d][vo/gpu/opengl] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   0.314][d][vo/gpu/opengl] [  5] in vec2 vertex_position;
+[   0.314][d][vo/gpu/opengl] [  6] in vec2 vertex_texcoord0;
+[   0.314][d][vo/gpu/opengl] [  7] out vec2 texcoord0;
+[   0.314][d][vo/gpu/opengl] [  8] void main() {
+[   0.314][d][vo/gpu/opengl] [  9] gl_Position = vec4(vertex_position, 1.0, 1.0);
+[   0.314][d][vo/gpu/opengl] [ 10] texcoord0 = vertex_texcoord0;
+[   0.314][d][vo/gpu/opengl] [ 11] }
+[   0.314][d][vo/gpu/opengl] fragment shader source:
+[   0.314][d][vo/gpu/opengl] [  1] #version 440
+[   0.314][d][vo/gpu/opengl] [  2] #define tex1D texture
+[   0.314][d][vo/gpu/opengl] [  3] #define tex3D texture
+[   0.314][d][vo/gpu/opengl] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   0.314][d][vo/gpu/opengl] [  5] out vec4 out_color;
+[   0.314][d][vo/gpu/opengl] [  6] in vec2 texcoord0;
+[   0.314][d][vo/gpu/opengl] [  7] layout(std140, binding=0) uniform UBO {
+[   0.314][d][vo/gpu/opengl] [  8] layout(offset=0) vec3 src_luma;
+[   0.314][d][vo/gpu/opengl] [  9] layout(offset=16) vec3 dst_luma;
+[   0.314][d][vo/gpu/opengl] [ 10] layout(offset=32) vec2 texture_size0;
+[   0.314][d][vo/gpu/opengl] [ 11] layout(offset=48) mat2 texture_rot0;
+[   0.314][d][vo/gpu/opengl] [ 12] layout(offset=80) vec2 texture_off0;
+[   0.314][d][vo/gpu/opengl] [ 13] layout(offset=88) vec2 pixel_size0;
+[   0.314][d][vo/gpu/opengl] [ 14] };
+[   0.314][d][vo/gpu/opengl] [ 15] uniform sampler2D lut;
+[   0.314][d][vo/gpu/opengl] [ 16] uniform sampler2D dither;
+[   0.314][d][vo/gpu/opengl] [ 17] uniform sampler2D texture0;
+[   0.314][d][vo/gpu/opengl] [ 18] void main() {
+[   0.314][d][vo/gpu/opengl] [ 19] vec4 color = vec4(0.0, 0.0, 0.0, 1.0);
+[   0.314][d][vo/gpu/opengl] [ 20] #undef tex
+[   0.314][d][vo/gpu/opengl] [ 21] #undef texmap
+[   0.314][d][vo/gpu/opengl] [ 22] #define tex texture0
+[   0.314][d][vo/gpu/opengl] [ 23] #define texmap texmap0
+[   0.314][d][vo/gpu/opengl] [ 24] vec2 pos = texcoord0;
+[   0.314][d][vo/gpu/opengl] [ 25] vec2 size = texture_size0;
+[   0.314][d][vo/gpu/opengl] [ 26] vec2 pt = pixel_size0;
+[   0.314][d][vo/gpu/opengl] [ 27] color = vec4(0.0);
+[   0.314][d][vo/gpu/opengl] [ 28] {
+[   0.314][d][vo/gpu/opengl] [ 29] vec2 dir = vec2(1.0, 0.0);
+[   0.314][d][vo/gpu/opengl] [ 30] pt *= dir;
+[   0.314][d][vo/gpu/opengl] [ 31] float fcoord = dot(fract(pos * size - vec2(0.5)), dir);
+[   0.314][d][vo/gpu/opengl] [ 32] vec2 base = pos - fcoord * pt - pt * vec2(2.0);
+[   0.314][d][vo/gpu/opengl] [ 33] vec4 c;
+[   0.314][d][vo/gpu/opengl] [ 34] float ypos = LUT_POS(fcoord, 64.0);
+[   0.314][d][vo/gpu/opengl] [ 35] float weights[6];
+[   0.314][d][vo/gpu/opengl] [ 36] c = texture(lut, vec2(0.250000, ypos));
+[   0.314][d][vo/gpu/opengl] [ 37] weights[0] = c[0];
+[   0.314][d][vo/gpu/opengl] [ 38] weights[1] = c[1];
+[   0.314][d][vo/gpu/opengl] [ 39] weights[2] = c[2];
+[   0.314][d][vo/gpu/opengl] [ 40] weights[3] = c[3];
+[   0.314][d][vo/gpu/opengl] [ 41] c = texture(lut, vec2(0.750000, ypos));
+[   0.314][d][vo/gpu/opengl] [ 42] weights[4] = c[0];
+[   0.314][d][vo/gpu/opengl] [ 43] weights[5] = c[1];
+[   0.314][d][vo/gpu/opengl] [ 44] // scaler samples
+[   0.314][d][vo/gpu/opengl] [ 45] c = texture(tex, base + pt * vec2(0.0));
+[   0.314][d][vo/gpu/opengl] [ 46] color += vec4(weights[0]) * c;
+[   0.314][d][vo/gpu/opengl] [ 47] c = texture(tex, base + pt * vec2(1.0));
+[   0.314][d][vo/gpu/opengl] [ 48] color += vec4(weights[1]) * c;
+[   0.314][d][vo/gpu/opengl] [ 49] c = texture(tex, base + pt * vec2(2.0));
+[   0.314][d][vo/gpu/opengl] [ 50] color += vec4(weights[2]) * c;
+[   0.314][d][vo/gpu/opengl] [ 51] c = texture(tex, base + pt * vec2(3.0));
+[   0.314][d][vo/gpu/opengl] [ 52] color += vec4(weights[3]) * c;
+[   0.314][d][vo/gpu/opengl] [ 53] c = texture(tex, base + pt * vec2(4.0));
+[   0.314][d][vo/gpu/opengl] [ 54] color += vec4(weights[4]) * c;
+[   0.314][d][vo/gpu/opengl] [ 55] c = texture(tex, base + pt * vec2(5.0));
+[   0.314][d][vo/gpu/opengl] [ 56] color += vec4(weights[5]) * c;
+[   0.314][d][vo/gpu/opengl] [ 57] }
+[   0.314][d][vo/gpu/opengl] [ 58] color.a = 1.000000;
+[   0.314][d][vo/gpu/opengl] [ 59] // scaler post-conversion
+[   0.314][d][vo/gpu/opengl] [ 60] // color mapping
+[   0.314][d][vo/gpu/opengl] [ 61] color.rgb *= vec3(1.000000);
+[   0.314][d][vo/gpu/opengl] [ 62] color.rgb *= vec3(1.000000);
+[   0.314][d][vo/gpu/opengl] [ 63] // delinearize
+[   0.314][d][vo/gpu/opengl] [ 64] color.rgb = clamp(color.rgb, 0.0, 1.0);
+[   0.314][d][vo/gpu/opengl] [ 65] color.rgb *= vec3(1.000000);
+[   0.314][d][vo/gpu/opengl] [ 66] color.rgb = pow(color.rgb, vec3(1.0/2.4));
+[   0.314][d][vo/gpu/opengl] [ 67] // dithering
+[   0.314][d][vo/gpu/opengl] [ 68] vec2 dither_pos = gl_FragCoord.xy * 1.0/64.0;
+[   0.314][d][vo/gpu/opengl] [ 69] float dither_value = texture(dither, dither_pos).r;
+[   0.314][d][vo/gpu/opengl] [ 70] color = floor(color * 1023.0 + dither_value + 0.5 / 4096.0) * 1.0/1023.0;
+[   0.314][d][vo/gpu/opengl] [ 71] out_color = color;
+[   0.314][d][vo/gpu/opengl] [ 72] }
+[   0.314][d][vo/gpu/opengl] shader link log (status=1): 
+[   0.317][v][vo/gpu/wayland] Given DND offer with mime type text/plain;charset=utf-8
+[   0.317][v][cplayer] first video frame after restart shown
+[   0.318][d][cplayer] Run command: define-section, flags=64, args=[name="input_osc", contents="", flags="default"]
+[   0.318][d][cplayer] Run command: enable-section, flags=64, args=[name="input_osc", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.318][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_osc", contents="", flags="force"]
+[   0.318][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_osc", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.318][d][osc] osc_init 
+[   0.319][v][cplayer] audio ready
+[   0.319][d][cplayer] starting video playback
+[   0.319][v][cplayer] delaying audio start 0.032000 vs. 0.000000, diff=0.032000
+[   0.319][v][cplayer] playback restart complete @ 0.000000, audio=ready, video=playing
+[   0.320][v][cplayer] starting audio playback
+[   0.320][d][vo/gpu] Resizing texture: 1344x756
+[   0.320][v][ao/pulse] starting AO
+[   0.321][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[   0.321][v][cplayer] Set property: shared-script-properties -> 1
+[   0.325][d][vo/gpu/opengl] vertex shader source:
+[   0.326][d][vo/gpu/opengl] [  1] #version 440
+[   0.326][d][vo/gpu/opengl] [  2] #define tex1D texture
+[   0.326][d][vo/gpu/opengl] [  3] #define tex3D texture
+[   0.326][d][vo/gpu/opengl] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   0.326][d][vo/gpu/opengl] [  5] in vec2 vertex_position;
+[   0.326][d][vo/gpu/opengl] [  6] in vec2 vertex_texcoord0;
+[   0.326][d][vo/gpu/opengl] [  7] out vec2 texcoord0;
+[   0.326][d][vo/gpu/opengl] [  8] void main() {
+[   0.326][d][vo/gpu/opengl] [  9] gl_Position = vec4(vertex_position, 1.0, 1.0);
+[   0.326][d][vo/gpu/opengl] [ 10] texcoord0 = vertex_texcoord0;
+[   0.326][d][vo/gpu/opengl] [ 11] }
+[   0.326][d][vo/gpu/opengl] fragment shader source:
+[   0.326][d][vo/gpu/opengl] [  1] #version 440
+[   0.326][d][vo/gpu/opengl] [  2] #define tex1D texture
+[   0.326][d][vo/gpu/opengl] [  3] #define tex3D texture
+[   0.326][d][vo/gpu/opengl] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   0.326][d][vo/gpu/opengl] [  5] out vec4 out_color;
+[   0.326][d][vo/gpu/opengl] [  6] in vec2 texcoord0;
+[   0.326][d][vo/gpu/opengl] [  7] layout(std140, binding=0) uniform UBO {
+[   0.326][d][vo/gpu/opengl] [  8] layout(offset=0) vec3 src_luma;
+[   0.326][d][vo/gpu/opengl] [  9] layout(offset=16) vec3 dst_luma;
+[   0.326][d][vo/gpu/opengl] [ 10] layout(offset=32) vec2 texture_size0;
+[   0.326][d][vo/gpu/opengl] [ 11] layout(offset=48) mat2 texture_rot0;
+[   0.326][d][vo/gpu/opengl] [ 12] layout(offset=80) vec2 texture_off0;
+[   0.326][d][vo/gpu/opengl] [ 13] layout(offset=88) vec2 pixel_size0;
+[   0.326][d][vo/gpu/opengl] [ 14] };
+[   0.326][d][vo/gpu/opengl] [ 15] uniform sampler2D lut;
+[   0.326][d][vo/gpu/opengl] [ 16] uniform sampler2D dither;
+[   0.326][d][vo/gpu/opengl] [ 17] uniform sampler2D texture0;
+[   0.326][d][vo/gpu/opengl] [ 18] void main() {
+[   0.326][d][vo/gpu/opengl] [ 19] vec4 color = vec4(0.0, 0.0, 0.0, 1.0);
+[   0.326][d][vo/gpu/opengl] [ 20] #undef tex
+[   0.326][d][vo/gpu/opengl] [ 21] #undef texmap
+[   0.326][d][vo/gpu/opengl] [ 22] #define tex texture0
+[   0.326][d][vo/gpu/opengl] [ 23] #define texmap texmap0
+[   0.326][d][vo/gpu/opengl] [ 24] vec2 pos = texcoord0;
+[   0.326][d][vo/gpu/opengl] [ 25] vec2 size = texture_size0;
+[   0.326][d][vo/gpu/opengl] [ 26] vec2 pt = pixel_size0;
+[   0.326][d][vo/gpu/opengl] [ 27] color = vec4(0.0);
+[   0.326][d][vo/gpu/opengl] [ 28] {
+[   0.326][d][vo/gpu/opengl] [ 29] vec2 dir = vec2(1.0, 0.0);
+[   0.326][d][vo/gpu/opengl] [ 30] pt *= dir;
+[   0.326][d][vo/gpu/opengl] [ 31] float fcoord = dot(fract(pos * size - vec2(0.5)), dir);
+[   0.326][d][vo/gpu/opengl] [ 32] vec2 base = pos - fcoord * pt - pt * vec2(2.0);
+[   0.326][d][vo/gpu/opengl] [ 33] vec4 c;
+[   0.326][d][vo/gpu/opengl] [ 34] float ypos = LUT_POS(fcoord, 64.0);
+[   0.326][d][vo/gpu/opengl] [ 35] float weights[6];
+[   0.326][d][vo/gpu/opengl] [ 36] c = texture(lut, vec2(0.250000, ypos));
+[   0.326][d][vo/gpu/opengl] [ 37] weights[0] = c[0];
+[   0.326][d][vo/gpu/opengl] [ 38] weights[1] = c[1];
+[   0.326][d][vo/gpu/opengl] [ 39] weights[2] = c[2];
+[   0.326][d][vo/gpu/opengl] [ 40] weights[3] = c[3];
+[   0.326][d][vo/gpu/opengl] [ 41] c = texture(lut, vec2(0.750000, ypos));
+[   0.326][d][vo/gpu/opengl] [ 42] weights[4] = c[0];
+[   0.326][d][vo/gpu/opengl] [ 43] weights[5] = c[1];
+[   0.326][d][vo/gpu/opengl] [ 44] // scaler samples
+[   0.326][d][vo/gpu/opengl] [ 45] c = texture(tex, base + pt * vec2(0.0));
+[   0.326][d][vo/gpu/opengl] [ 46] color += vec4(weights[0]) * c;
+[   0.326][d][vo/gpu/opengl] [ 47] c = texture(tex, base + pt * vec2(1.0));
+[   0.326][d][vo/gpu/opengl] [ 48] color += vec4(weights[1]) * c;
+[   0.326][d][vo/gpu/opengl] [ 49] c = texture(tex, base + pt * vec2(2.0));
+[   0.326][d][vo/gpu/opengl] [ 50] color += vec4(weights[2]) * c;
+[   0.326][d][vo/gpu/opengl] [ 51] c = texture(tex, base + pt * vec2(3.0));
+[   0.326][d][vo/gpu/opengl] [ 52] color += vec4(weights[3]) * c;
+[   0.326][d][vo/gpu/opengl] [ 53] c = texture(tex, base + pt * vec2(4.0));
+[   0.326][d][vo/gpu/opengl] [ 54] color += vec4(weights[4]) * c;
+[   0.326][d][vo/gpu/opengl] [ 55] c = texture(tex, base + pt * vec2(5.0));
+[   0.326][d][vo/gpu/opengl] [ 56] color += vec4(weights[5]) * c;
+[   0.326][d][vo/gpu/opengl] [ 57] }
+[   0.326][d][vo/gpu/opengl] [ 58] color.a = 1.000000;
+[   0.326][d][vo/gpu/opengl] [ 59] // scaler post-conversion
+[   0.326][d][vo/gpu/opengl] [ 60] // color mapping
+[   0.326][d][vo/gpu/opengl] [ 61] color.rgb *= vec3(1.000000);
+[   0.326][d][vo/gpu/opengl] [ 62] color.rgb *= vec3(1.000000);
+[   0.326][d][vo/gpu/opengl] [ 63] // delinearize
+[   0.326][d][vo/gpu/opengl] [ 64] color.rgb = clamp(color.rgb, 0.0, 1.0);
+[   0.326][d][vo/gpu/opengl] [ 65] color.rgb *= vec3(1.000000);
+[   0.326][d][vo/gpu/opengl] [ 66] color.rgb = pow(color.rgb, vec3(1.0/2.4));
+[   0.326][d][vo/gpu/opengl] [ 67] // dithering
+[   0.326][d][vo/gpu/opengl] [ 68] vec2 dither_pos = gl_FragCoord.xy * 1.0/64.0;
+[   0.326][d][vo/gpu/opengl] [ 69] float dither_value = texture(dither, dither_pos).r;
+[   0.326][d][vo/gpu/opengl] [ 70] color = floor(color * 1023.0 + dither_value + 0.5 / 4096.0) * 1.0/1023.0;
+[   0.326][d][vo/gpu/opengl] [ 71] out_color = color;
+[   0.326][d][vo/gpu/opengl] [ 72] }
+[   0.326][d][vo/gpu/opengl] shader link log (status=1): 
+[   0.329][v][vo/gpu/wayland] Surface entered output Dell Inc. DELL P2317H (0x24), scale = 1
+[   0.331][v][vo/gpu/wayland] Enabling idle inhibitor
+[   0.331][v][vo/gpu] Assuming 60.000000 FPS for display sync.
+[   1.837][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding4"]
+[   2.254][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[   2.254][v][cplayer] Set property: shared-script-properties -> 1
+[   2.254][d][cplayer] Run command: enable-section, flags=64, args=[name="input", flags=""]
+[   2.265][v][osd/libass] fontselect: (sans-serif, 400, 0) -> /home/nero/.local/share/fonts/Roboto/Roboto-Regular.ttf, 0, Roboto-Regular
+[   2.265][v][osd/libass] fontselect: (mpv-osd-symbols, 400, 0) -> mpv-osd-symbols-Regular, 0, mpv-osd-symbols-Regular
+[   2.266][v][vo/gpu] Reallocating OSD texture to 2048x256.
+[   2.267][d][vo/gpu/opengl] vertex shader source:
+[   2.267][d][vo/gpu/opengl] [  1] #version 440
+[   2.267][d][vo/gpu/opengl] [  2] #define tex1D texture
+[   2.267][d][vo/gpu/opengl] [  3] #define tex3D texture
+[   2.267][d][vo/gpu/opengl] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   2.267][d][vo/gpu/opengl] [  5] in vec2 vertex_position;
+[   2.267][d][vo/gpu/opengl] [  6] in vec2 vertex_texcoord;
+[   2.267][d][vo/gpu/opengl] [  7] out vec2 texcoord;
+[   2.267][d][vo/gpu/opengl] [  8] in vec4 vertex_ass_color;
+[   2.267][d][vo/gpu/opengl] [  9] out vec4 ass_color;
+[   2.267][d][vo/gpu/opengl] [ 10] void main() {
+[   2.267][d][vo/gpu/opengl] [ 11] gl_Position = vec4(vertex_position, 1.0, 1.0);
+[   2.267][d][vo/gpu/opengl] [ 12] texcoord = vertex_texcoord;
+[   2.267][d][vo/gpu/opengl] [ 13] ass_color = vertex_ass_color;
+[   2.267][d][vo/gpu/opengl] [ 14] }
+[   2.269][d][vo/gpu/opengl] fragment shader source:
+[   2.269][d][vo/gpu/opengl] [  1] #version 440
+[   2.269][d][vo/gpu/opengl] [  2] #define tex1D texture
+[   2.269][d][vo/gpu/opengl] [  3] #define tex3D texture
+[   2.269][d][vo/gpu/opengl] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   2.269][d][vo/gpu/opengl] [  5] out vec4 out_color;
+[   2.269][d][vo/gpu/opengl] [  6] in vec2 texcoord;
+[   2.269][d][vo/gpu/opengl] [  7] in vec4 ass_color;
+[   2.269][d][vo/gpu/opengl] [  8] layout(std140, binding=0) uniform UBO {
+[   2.269][d][vo/gpu/opengl] [  9] layout(offset=0) vec3 src_luma;
+[   2.269][d][vo/gpu/opengl] [ 10] layout(offset=16) vec3 dst_luma;
+[   2.269][d][vo/gpu/opengl] [ 11] };
+[   2.269][d][vo/gpu/opengl] [ 12] uniform sampler2D osdtex;
+[   2.269][d][vo/gpu/opengl] [ 13] void main() {
+[   2.269][d][vo/gpu/opengl] [ 14] vec4 color = vec4(0.0, 0.0, 0.0, 1.0);
+[   2.269][d][vo/gpu/opengl] [ 15] color = vec4(ass_color.rgb, ass_color.a * texture(osdtex, texcoord).r);
+[   2.269][d][vo/gpu/opengl] [ 16] // color mapping
+[   2.269][d][vo/gpu/opengl] [ 17] color.rgb *= vec3(1.000000);
+[   2.269][d][vo/gpu/opengl] [ 18] color.rgb *= vec3(1.000000);
+[   2.269][d][vo/gpu/opengl] [ 19] out_color = color;
+[   2.269][d][vo/gpu/opengl] [ 20] }
+[   2.269][d][vo/gpu/opengl] shader link log (status=1): 
+[   2.378][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding4"]
+[   2.621][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[   2.621][v][cplayer] Set property: shared-script-properties -> 1
+[   2.621][d][cplayer] Run command: disable-section, flags=64, args=[name="input"]
+[   2.797][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[   2.797][v][cplayer] Set property: shared-script-properties -> 1
+[   2.797][d][cplayer] Run command: enable-section, flags=64, args=[name="input", flags=""]
+[   3.671][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding5"]
+[   3.671][d][cplayer] Run command: seek, flags=64, args=[target="7.517221", flags="absolute-percent", legacy="exact"]
+[   3.671][v][mkv] queuing seek to 108.243393
+[   3.671][v][mkv] execute seek (to 108.243393 flags 32)
+[   3.671][v][file] stream level seek from 974902 to 66703618
+[   3.671][v][mkv] seek done
+[   3.672][v][cplayer] hr-seek, skipping to 108.243393
+[   3.688][v][vd] Pixel formats supported by decoder: vdpau cuda vaapi_vld yuv420p
+[   3.688][v][vd] Codec profile: Main (0x4d)
+[   3.689][v][vd] Requesting pixfmt 'vaapi_vld' from decoder.
+[   3.689][d][ffmpeg/video] h264: Reinit context to 1920x1088, pix_fmt: vaapi_vld
+[   3.693][v][vd] Decoder format: 1920x1080 vaapi[nv12] auto/auto/auto/auto/auto CL=mpeg2/4/h264
+[   3.693][v][vd] Using container aspect ratio.
+[   3.713][v][vo/gpu/wayland] Disabling the idle inhibitor
+[   3.716][v][sub/ass] fontselect: (sans-serif, 400, 0) -> /home/nero/.local/share/fonts/Roboto/Roboto-Regular.ttf, 0, Roboto-Regular
+[   3.717][v][vo/gpu] Reallocating OSD texture to 1024x128.
+[   3.731][v][cplayer] first video frame after restart shown
+[   3.731][v][cplayer] audio ready
+[   3.732][d][cplayer] starting video playback
+[   3.732][v][cplayer] starting audio playback
+[   3.732][v][ao/pulse] starting AO
+[   3.732][v][cplayer] playback restart complete @ 108.275000, audio=playing, video=playing
+[   3.732][v][vo/gpu/wayland] Enabling idle inhibitor
+[   3.779][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding5"]
+[   4.403][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding5"]
+[   4.403][d][cplayer] Run command: seek, flags=64, args=[target="14.255765", flags="absolute-percent", legacy="exact"]
+[   4.404][v][mkv] queuing seek to 205.274323
+[   4.404][v][mkv] execute seek (to 205.274323 flags 32)
+[   4.404][v][file] stream level seek from 67752194 to 112939386
+[   4.404][v][mkv] seek done
+[   4.404][v][cplayer] hr-seek, skipping to 205.274323
+[   4.441][v][vd] Pixel formats supported by decoder: vdpau cuda vaapi_vld yuv420p
+[   4.441][v][vd] Codec profile: Main (0x4d)
+[   4.443][v][vd] Requesting pixfmt 'vaapi_vld' from decoder.
+[   4.443][d][ffmpeg/video] h264: Reinit context to 1920x1088, pix_fmt: vaapi_vld
+[   4.445][v][vo/gpu/wayland] Disabling the idle inhibitor
+[   4.448][v][vd] Decoder format: 1920x1080 vaapi[nv12] auto/auto/auto/auto/auto CL=mpeg2/4/h264
+[   4.448][v][vd] Using container aspect ratio.
+[   4.456][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding5"]
+[   4.475][v][vo/gpu] Reallocating OSD texture to 1024x256.
+[   4.477][v][cplayer] first video frame after restart shown
+[   4.478][v][cplayer] audio ready
+[   4.478][d][cplayer] starting video playback
+[   4.478][v][cplayer] starting audio playback
+[   4.478][v][cplayer] playback restart complete @ 205.288000, audio=playing, video=playing
+[   4.478][v][vo/gpu/wayland] Enabling idle inhibitor
+[   4.479][v][ao/pulse] starting AO
+[   4.899][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding5"]
+[   4.901][d][cplayer] Run command: seek, flags=64, args=[target="18.748128", flags="absolute-percent", legacy="exact"]
+[   4.901][v][mkv] queuing seek to 269.961609
+[   4.901][v][mkv] execute seek (to 269.961609 flags 32)
+[   4.901][v][file] stream level seek from 116792499 to 151125003
+[   4.901][v][mkv] seek done
+[   4.901][v][cplayer] hr-seek, skipping to 269.961609
+[   4.912][v][vd] Pixel formats supported by decoder: vdpau cuda vaapi_vld yuv420p
+[   4.912][v][vd] Codec profile: Main (0x4d)
+[   4.914][v][vd] Requesting pixfmt 'vaapi_vld' from decoder.
+[   4.914][d][ffmpeg/video] h264: Reinit context to 1920x1088, pix_fmt: vaapi_vld
+[   4.918][v][vd] Decoder format: 1920x1080 vaapi[nv12] auto/auto/auto/auto/auto CL=mpeg2/4/h264
+[   4.918][v][vd] Using container aspect ratio.
+[   4.941][v][vo/gpu/wayland] Disabling the idle inhibitor
+[   4.952][v][cplayer] first video frame after restart shown
+[   4.954][v][cplayer] audio ready
+[   4.954][d][cplayer] starting video playback
+[   4.955][v][cplayer] starting audio playback
+[   4.955][v][cplayer] playback restart complete @ 269.978000, audio=playing, video=playing
+[   4.955][v][vo/gpu/wayland] Enabling idle inhibitor
+[   4.955][v][ao/pulse] starting AO
+[   5.000][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding5"]
+[   5.291][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding5"]
+[   5.292][d][cplayer] Run command: seek, flags=64, args=[target="38.065289", flags="absolute-percent", legacy="exact"]
+[   5.292][v][mkv] queuing seek to 548.116942
+[   5.292][v][mkv] execute seek (to 548.116942 flags 32)
+[   5.292][v][file] stream level seek from 154028659 to 308589272
+[   5.292][v][mkv] seek done
+[   5.293][v][cplayer] hr-seek, skipping to 548.116942
+[   5.304][v][vd] Pixel formats supported by decoder: vdpau cuda vaapi_vld yuv420p
+[   5.304][v][vd] Codec profile: Main (0x4d)
+[   5.306][v][vd] Requesting pixfmt 'vaapi_vld' from decoder.
+[   5.306][d][ffmpeg/video] h264: Reinit context to 1920x1088, pix_fmt: vaapi_vld
+[   5.310][v][vd] Decoder format: 1920x1080 vaapi[nv12] auto/auto/auto/auto/auto CL=mpeg2/4/h264
+[   5.310][v][vd] Using container aspect ratio.
+[   5.332][v][vo/gpu/wayland] Disabling the idle inhibitor
+[   5.348][v][cplayer] first video frame after restart shown
+[   5.350][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding5"]
+[   5.350][v][cplayer] audio ready
+[   5.350][d][cplayer] starting video playback
+[   5.350][v][cplayer] starting audio playback
+[   5.350][v][vo/gpu/wayland] Enabling idle inhibitor
+[   5.350][v][ao/pulse] starting AO
+[   5.350][v][cplayer] playback restart complete @ 548.131000, audio=playing, video=playing
+[   5.645][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding5"]
+[   5.645][d][cplayer] Run command: seek, flags=64, args=[target="48.098233", flags="absolute-percent", legacy="exact"]
+[   5.645][v][mkv] queuing seek to 692.585215
+[   5.646][v][mkv] execute seek (to 692.585215 flags 32)
+[   5.646][v][file] stream level seek from 311448064 to 392604175
+[   5.646][v][mkv] seek done
+[   5.646][v][cplayer] hr-seek, skipping to 692.585215
+[   5.660][v][vd] Pixel formats supported by decoder: vdpau cuda vaapi_vld yuv420p
+[   5.660][v][vd] Codec profile: Main (0x4d)
+[   5.662][v][vd] Requesting pixfmt 'vaapi_vld' from decoder.
+[   5.662][d][ffmpeg/video] h264: Reinit context to 1920x1088, pix_fmt: vaapi_vld
+[   5.666][v][vd] Decoder format: 1920x1080 vaapi[nv12] auto/auto/auto/auto/auto CL=mpeg2/4/h264
+[   5.666][v][vd] Using container aspect ratio.
+[   5.687][v][vo/gpu/wayland] Disabling the idle inhibitor
+[   5.704][v][cplayer] first video frame after restart shown
+[   5.707][v][cplayer] audio ready
+[   5.707][d][cplayer] starting video playback
+[   5.707][v][cplayer] starting audio playback
+[   5.707][v][cplayer] playback restart complete @ 692.609000, audio=playing, video=playing
+[   5.707][v][vo/gpu/wayland] Enabling idle inhibitor
+[   5.707][v][ao/pulse] starting AO
+[   5.751][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding5"]
+[   6.001][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding5"]
+[   6.002][d][cplayer] Run command: seek, flags=64, args=[target="56.783468", flags="absolute-percent", legacy="exact"]
+[   6.002][v][mkv] queuing seek to 817.647303
+[   6.002][v][mkv] execute seek (to 817.647303 flags 32)
+[   6.002][v][file] stream level seek from 395506255 to 464148501
+[   6.002][v][mkv] seek done
+[   6.003][v][cplayer] hr-seek, skipping to 817.647303
+[   6.016][v][vd] Pixel formats supported by decoder: vdpau cuda vaapi_vld yuv420p
+[   6.016][v][vd] Codec profile: Main (0x4d)
+[   6.018][v][vd] Requesting pixfmt 'vaapi_vld' from decoder.
+[   6.018][d][ffmpeg/video] h264: Reinit context to 1920x1088, pix_fmt: vaapi_vld
+[   6.022][v][vd] Decoder format: 1920x1080 vaapi[nv12] auto/auto/auto/auto/auto CL=mpeg2/4/h264
+[   6.022][v][vd] Using container aspect ratio.
+[   6.043][v][vo/gpu/wayland] Disabling the idle inhibitor
+[   6.048][v][cplayer] first video frame after restart shown
+[   6.050][v][cplayer] audio ready
+[   6.050][d][cplayer] starting video playback
+[   6.050][v][cplayer] starting audio playback
+[   6.050][v][cplayer] playback restart complete @ 817.650000, audio=playing, video=playing
+[   6.050][v][ao/pulse] starting AO
+[   6.051][v][vo/gpu/wayland] Enabling idle inhibitor
+[   6.095][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding5"]
+[   6.555][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding5"]
+[   6.555][d][cplayer] Run command: seek, flags=64, args=[target="67.415394", flags="absolute-percent", legacy="exact"]
+[   6.555][v][mkv] queuing seek to 970.740548
+[   6.556][v][mkv] execute seek (to 970.740548 flags 32)
+[   6.556][v][file] stream level seek from 465742501 to 547443896
+[   6.556][v][mkv] seek done
+[   6.556][v][cplayer] hr-seek, skipping to 970.740548
+[   6.558][v][vd] Pixel formats supported by decoder: vdpau cuda vaapi_vld yuv420p
+[   6.559][v][vd] Codec profile: Main (0x4d)
+[   6.560][v][vd] Requesting pixfmt 'vaapi_vld' from decoder.
+[   6.560][d][ffmpeg/video] h264: Reinit context to 1920x1088, pix_fmt: vaapi_vld
+[   6.565][v][vo/gpu/wayland] Disabling the idle inhibitor
+[   6.565][v][vd] Decoder format: 1920x1080 vaapi[nv12] auto/auto/auto/auto/auto CL=mpeg2/4/h264
+[   6.565][v][vd] Using container aspect ratio.
+[   6.600][v][cplayer] first video frame after restart shown
+[   6.603][v][cplayer] audio ready
+[   6.603][d][cplayer] starting video playback
+[   6.603][v][cplayer] starting audio playback
+[   6.603][v][cplayer] playback restart complete @ 970.761000, audio=playing, video=playing
+[   6.603][v][vo/gpu/wayland] Enabling idle inhibitor
+[   6.603][v][ao/pulse] starting AO
+[   6.647][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding5"]
+[   7.396][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding5"]
+[   7.397][d][cplayer] Run command: seek, flags=64, args=[target="34.920635", flags="absolute-percent", legacy="exact"]
+[   7.397][v][mkv] queuing seek to 502.835841
+[   7.397][v][mkv] execute seek (to 502.835841 flags 32)
+[   7.397][v][file] stream level seek from 550615700 to 284350184
+[   7.397][v][mkv] seek done
+[   7.398][v][cplayer] hr-seek, skipping to 502.835841
+[   7.398][v][vo/gpu/wayland] Disabling the idle inhibitor
+[   7.398][d][cplayer] Run command: seek, flags=64, args=[target="34.920635", flags="absolute-percent", legacy="unused"]
+[   7.398][d][cplayer] Run command: seek, flags=64, args=[target="34.770889", flags="absolute-percent", legacy="unused"]
+[   7.399][d][cplayer] Run command: seek, flags=64, args=[target="34.471399", flags="absolute-percent", legacy="unused"]
+[   7.401][d][cplayer] Run command: seek, flags=64, args=[target="34.321653", flags="absolute-percent", legacy="unused"]
+[   7.403][d][cplayer] Run command: seek, flags=64, args=[target="34.171908", flags="absolute-percent", legacy="unused"]
+[   7.405][d][cplayer] Run command: seek, flags=64, args=[target="34.022162", flags="absolute-percent", legacy="unused"]
+[   7.408][v][vd] Pixel formats supported by decoder: vdpau cuda vaapi_vld yuv420p
+[   7.408][v][vd] Codec profile: Main (0x4d)
+[   7.410][v][vd] Requesting pixfmt 'vaapi_vld' from decoder.
+[   7.410][d][ffmpeg/video] h264: Reinit context to 1920x1088, pix_fmt: vaapi_vld
+[   7.413][v][vd] Decoder format: 1920x1080 vaapi[nv12] auto/auto/auto/auto/auto CL=mpeg2/4/h264
+[   7.414][v][vd] Using container aspect ratio.
+[   7.420][d][cplayer] Run command: seek, flags=64, args=[target="32.824199", flags="absolute-percent", legacy="unused"]
+[   7.431][v][cplayer] first video frame after restart shown
+[   7.432][v][cplayer] audio ready
+[   7.432][d][cplayer] starting video playback
+[   7.432][v][mkv] queuing seek to 472.648441
+[   7.432][v][mkv] execute seek (to 472.648441 flags 0)
+[   7.432][v][file] stream level seek from 285333224 to 266086987
+[   7.432][v][mkv] seek done
+[   7.433][d][cplayer] Run command: seek, flags=64, args=[target="29.829290", flags="absolute-percent", legacy="unused"]
+[   7.433][d][cplayer] Run command: seek, flags=64, args=[target="29.679545", flags="absolute-percent", legacy="unused"]
+[   7.433][d][cplayer] Run command: seek, flags=64, args=[target="29.380054", flags="absolute-percent", legacy="unused"]
+[   7.435][d][cplayer] Run command: seek, flags=64, args=[target="29.230308", flags="absolute-percent", legacy="unused"]
+[   7.436][d][cplayer] Run command: seek, flags=64, args=[target="28.930818", flags="absolute-percent", legacy="unused"]
+[   7.437][d][cplayer] Run command: seek, flags=64, args=[target="28.631327", flags="absolute-percent", legacy="unused"]
+[   7.439][d][cplayer] Run command: seek, flags=64, args=[target="28.481581", flags="absolute-percent", legacy="unused"]
+[   7.440][d][cplayer] Run command: seek, flags=64, args=[target="28.182090", flags="absolute-percent", legacy="unused"]
+[   7.441][d][cplayer] Run command: seek, flags=64, args=[target="28.032345", flags="absolute-percent", legacy="unused"]
+[   7.444][v][vd] Pixel formats supported by decoder: vdpau cuda vaapi_vld yuv420p
+[   7.444][v][vd] Codec profile: Main (0x4d)
+[   7.445][v][vd] Requesting pixfmt 'vaapi_vld' from decoder.
+[   7.445][d][ffmpeg/video] h264: Reinit context to 1920x1088, pix_fmt: vaapi_vld
+[   7.449][v][vd] Decoder format: 1920x1080 vaapi[nv12] auto/auto/auto/auto/auto CL=mpeg2/4/h264
+[   7.449][v][vd] Using container aspect ratio.
+[   7.465][v][cplayer] first video frame after restart shown
+[   7.465][d][cplayer] Run command: seek, flags=64, args=[target="26.534891", flags="absolute-percent", legacy="unused"]
+[   7.465][v][cplayer] audio ready
+[   7.465][d][cplayer] starting video playback
+[   7.465][v][mkv] queuing seek to 382.086240
+[   7.465][v][mkv] execute seek (to 382.086240 flags 0)
+[   7.465][v][file] stream level seek from 267881912 to 213302356
+[   7.465][v][mkv] seek done
+[   7.466][d][cplayer] Run command: seek, flags=64, args=[target="23.390237", flags="absolute-percent", legacy="unused"]
+[   7.466][d][cplayer] Run command: seek, flags=64, args=[target="23.090746", flags="absolute-percent", legacy="unused"]
+[   7.467][d][cplayer] Run command: seek, flags=64, args=[target="22.791255", flags="absolute-percent", legacy="unused"]
+[   7.468][d][cplayer] Run command: seek, flags=64, args=[target="22.641509", flags="absolute-percent", legacy="unused"]
+[   7.469][d][cplayer] Run command: seek, flags=64, args=[target="22.342019", flags="absolute-percent", legacy="unused"]
+[   7.470][d][cplayer] Run command: seek, flags=64, args=[target="22.042528", flags="absolute-percent", legacy="unused"]
+[   7.471][d][cplayer] Run command: seek, flags=64, args=[target="21.743037", flags="absolute-percent", legacy="unused"]
+[   7.472][d][cplayer] Run command: seek, flags=64, args=[target="21.593291", flags="absolute-percent", legacy="unused"]
+[   7.473][d][cplayer] Run command: seek, flags=64, args=[target="21.293801", flags="absolute-percent", legacy="unused"]
+[   7.474][d][cplayer] Run command: seek, flags=64, args=[target="20.994310", flags="absolute-percent", legacy="unused"]
+[   7.475][d][cplayer] Run command: seek, flags=64, args=[target="20.694819", flags="absolute-percent", legacy="unused"]
+[   7.476][d][cplayer] Run command: seek, flags=64, args=[target="20.545073", flags="absolute-percent", legacy="unused"]
+[   7.477][d][cplayer] Run command: seek, flags=64, args=[target="20.245583", flags="absolute-percent", legacy="unused"]
+[   7.478][d][cplayer] Run command: seek, flags=64, args=[target="19.946092", flags="absolute-percent", legacy="unused"]
+[   7.479][d][cplayer] Run command: seek, flags=64, args=[target="19.646601", flags="absolute-percent", legacy="unused"]
+[   7.480][d][cplayer] Run command: seek, flags=64, args=[target="19.496855", flags="absolute-percent", legacy="unused"]
+[   7.481][d][cplayer] Run command: seek, flags=64, args=[target="19.197364", flags="absolute-percent", legacy="unused"]
+[   7.482][d][cplayer] Run command: seek, flags=64, args=[target="18.897874", flags="absolute-percent", legacy="unused"]
+[   7.483][d][cplayer] Run command: seek, flags=64, args=[target="18.598383", flags="absolute-percent", legacy="unused"]
+[   7.484][d][cplayer] Run command: seek, flags=64, args=[target="18.448637", flags="absolute-percent", legacy="unused"]
+[   7.485][d][cplayer] Run command: seek, flags=64, args=[target="18.149146", flags="absolute-percent", legacy="unused"]
+[   7.486][d][cplayer] Run command: seek, flags=64, args=[target="17.849656", flags="absolute-percent", legacy="unused"]
+[   7.487][d][cplayer] Run command: seek, flags=64, args=[target="17.550165", flags="absolute-percent", legacy="unused"]
+[   7.488][d][cplayer] Run command: seek, flags=64, args=[target="16.951183", flags="absolute-percent", legacy="unused"]
+[   7.491][v][vd] Pixel formats supported by decoder: vdpau cuda vaapi_vld yuv420p
+[   7.491][v][vd] Codec profile: Main (0x4d)
+[   7.492][v][vd] Requesting pixfmt 'vaapi_vld' from decoder.
+[   7.492][d][ffmpeg/video] h264: Reinit context to 1920x1088, pix_fmt: vaapi_vld
+[   7.496][v][vd] Decoder format: 1920x1080 vaapi[nv12] auto/auto/auto/auto/auto CL=mpeg2/4/h264
+[   7.496][v][vd] Using container aspect ratio.
+[   7.515][v][cplayer] first video frame after restart shown
+[   7.515][v][cplayer] audio ready
+[   7.515][d][cplayer] starting video playback
+[   7.515][v][mkv] queuing seek to 244.086695
+[   7.515][v][mkv] execute seek (to 244.086695 flags 0)
+[   7.515][v][file] stream level seek from 216744793 to 138402575
+[   7.515][v][mkv] seek done
+[   7.516][d][cplayer] Run command: seek, flags=64, args=[target="7.666966", flags="absolute-percent", legacy="unused"]
+[   7.516][d][cplayer] Run command: seek, flags=64, args=[target="7.367475", flags="absolute-percent", legacy="unused"]
+[   7.516][d][cplayer] Run command: seek, flags=64, args=[target="7.067984", flags="absolute-percent", legacy="unused"]
+[   7.517][d][cplayer] Run command: seek, flags=64, args=[target="6.918239", flags="absolute-percent", legacy="unused"]
+[   7.518][d][cplayer] Run command: seek, flags=64, args=[target="6.618748", flags="absolute-percent", legacy="unused"]
+[   7.519][d][cplayer] Run command: seek, flags=64, args=[target="6.319257", flags="absolute-percent", legacy="unused"]
+[   7.520][d][cplayer] Run command: seek, flags=64, args=[target="6.019766", flags="absolute-percent", legacy="unused"]
+[   7.521][d][cplayer] Run command: seek, flags=64, args=[target="5.870021", flags="absolute-percent", legacy="unused"]
+[   7.522][d][cplayer] Run command: seek, flags=64, args=[target="5.570530", flags="absolute-percent", legacy="unused"]
+[   7.523][d][cplayer] Run command: seek, flags=64, args=[target="5.271039", flags="absolute-percent", legacy="unused"]
+[   7.524][d][cplayer] Run command: seek, flags=64, args=[target="4.971548", flags="absolute-percent", legacy="unused"]
+[   7.525][d][cplayer] Run command: seek, flags=64, args=[target="4.821803", flags="absolute-percent", legacy="unused"]
+[   7.528][v][vd] Pixel formats supported by decoder: vdpau cuda vaapi_vld yuv420p
+[   7.528][v][vd] Codec profile: Main (0x4d)
+[   7.530][v][vd] Requesting pixfmt 'vaapi_vld' from decoder.
+[   7.530][d][ffmpeg/video] h264: Reinit context to 1920x1088, pix_fmt: vaapi_vld
+[   7.534][v][vd] Decoder format: 1920x1080 vaapi[nv12] auto/auto/auto/auto/auto CL=mpeg2/4/h264
+[   7.534][v][vd] Using container aspect ratio.
+[   7.548][v][cplayer] first video frame after restart shown
+[   7.548][v][cplayer] audio ready
+[   7.548][d][cplayer] starting video playback
+[   7.548][v][mkv] queuing seek to 69.431021
+[   7.548][v][mkv] execute seek (to 69.431021 flags 0)
+[   7.549][v][file] stream level seek from 139189007 to 50070128
+[   7.549][v][mkv] seek done
+[   7.549][d][cplayer] Run command: seek, flags=64, args=[target="0.000000", flags="absolute-percent", legacy="unused"]
+[   7.559][v][vd] Pixel formats supported by decoder: vdpau cuda vaapi_vld yuv420p
+[   7.559][v][vd] Codec profile: Main (0x4d)
+[   7.560][v][vd] Requesting pixfmt 'vaapi_vld' from decoder.
+[   7.561][d][ffmpeg/video] h264: Reinit context to 1920x1088, pix_fmt: vaapi_vld
+[   7.564][v][vd] Decoder format: 1920x1080 vaapi[nv12] auto/auto/auto/auto/auto CL=mpeg2/4/h264
+[   7.564][v][vd] Using container aspect ratio.
+[   7.581][v][cplayer] first video frame after restart shown
+[   7.582][v][cplayer] audio ready
+[   7.582][d][cplayer] starting video playback
+[   7.582][v][mkv] queuing seek to 0.000000
+[   7.582][v][mkv] execute seek (to 0.000000 flags 0)
+[   7.582][v][file] stream level seek from 50936960 to 5976
+[   7.582][v][mkv] seek done
+[   7.584][v][vd] Pixel formats supported by decoder: vdpau cuda vaapi_vld yuv420p
+[   7.584][v][vd] Codec profile: Main (0x4d)
+[   7.586][v][vd] Requesting pixfmt 'vaapi_vld' from decoder.
+[   7.586][d][ffmpeg/video] h264: Reinit context to 1920x1088, pix_fmt: vaapi_vld
+[   7.590][v][vd] Decoder format: 1920x1080 vaapi[nv12] auto/auto/auto/auto/auto CL=mpeg2/4/h264
+[   7.590][v][vd] Using container aspect ratio.
+[   7.615][v][cplayer] first video frame after restart shown
+[   7.615][v][cplayer] audio ready
+[   7.615][d][cplayer] starting video playback
+[   7.615][v][cplayer] delaying audio start 0.031940 vs. 0.000000, diff=0.031940
+[   7.615][v][cplayer] playback restart complete @ 0.000000, audio=ready, video=playing
+[   7.615][v][vo/gpu/wayland] Enabling idle inhibitor
+[   7.615][v][cplayer] starting audio playback
+[   7.615][v][ao/pulse] starting AO
+[   8.016][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding5"]
+[   8.137][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding2"]
+[   8.218][d][cplayer] Run command: quit, flags=73, args=[code="0"]
+[   8.218][d][global] config path: '/home/nero/.config/mpv/watch_later' -> '/home/nero/.config/mpv/watch_later'
+[   8.218][i][cplayer] Saving state.
+[   8.219][v][cplayer] EOF code: 5  
+[   8.220][d][ad] Uninit decoder.
+[   8.220][d][vd] Uninit decoder.
+[   8.223][d][cplayer] Terminating demuxers...
+[   8.223][d][cplayer] Done terminating demuxers.
+[   8.223][v][cplayer] finished playback, success (reason 3)
+[   8.223][i][cplayer] 
+[   8.223][i][cplayer] Exiting... (Quit)
+[   8.224][d][ytdl_hook] Exiting...
+[   8.224][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="remove", value="osc-margins"]
+[   8.224][v][cplayer] Set property: shared-script-properties -> 1
+[   8.224][d][stats] Exiting...
+[   8.224][d][console] Exiting...
+[   8.224][d][osc] Exiting...
+[   8.231][v][vo/gpu/wayland] Disabling the idle inhibitor
+[   8.232][d][vo/gpu] flushing shader cache
+[   8.237][v][vo/gpu/wayland] Deregistering output Sony SONY TV (0x27)
+[   8.237][v][vo/gpu/wayland] Deregistering output Dell Inc. DELL P2317H (0x25)
+[   8.237][v][vo/gpu/wayland] Deregistering output Dell Inc. DELL P2317H (0x24)

@@ -1,0 +1,3 @@
+#!/bin/sh
+
+exec rclone mount gdrive:/Musica /home/nero/music --allow-other --log-level INFO --poll-interval 15s --vfs-read-chunk-size 32M
