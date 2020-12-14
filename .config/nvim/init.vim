@@ -34,6 +34,12 @@ set tm=500
 " Enable syntax highlighting
 syntax on
 
+" Visible whitespace characters
+set listchars=eol:$,nbsp:_,tab:>-,trail:~,extends:>,precedes:<
+
+" Fix clipboard
+set clipboard=unnamedplus
+
 " Disable automatic commenting
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
@@ -50,6 +56,17 @@ set tw=500
 set ai "Auto indent
 set si "Smart indent
 set wrap "Wrap lines
+
+" Remap some keys
+command Wq wq
+command WQ wq
+command W w
+command Q q
+nnoremap Q <nop>
+map <F1> <Esc>
+imap <F1> <Esc>
+" Delete word
+inoremap <C-H> <C-W>
 
 " Always show the status line
 set laststatus=2
@@ -99,10 +116,12 @@ function! StatuslineMode()
   endif
 endfunction
 
-" paste formatting
+" Paste formatting
 nnoremap <F2> :set invpaste paste?<CR>
 set pastetoggle=<F2>
 set showmode
 
-" delete word
-inoremap <C-H> <C-W>
+" Swap directories
+set backupdir=~/.vim/backups,.
+set directory=~/.vim/swapfiles//,.
+
