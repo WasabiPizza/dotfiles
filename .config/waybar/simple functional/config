@@ -3,16 +3,19 @@
   "position": "top",
   "output": "eDP-1",
   "width": "3000",
-  "height": "30",
+  "height": "28",
 
   "modules-left": [ "sway/workspaces", "sway/window" ],
   "modules-center": [ ],
   "modules-right": [
+    "bluetooth",
+    "cpu",
+    "memory",
+    "temperature",
     "wireplumber",
-    "battery",
     "network",
-    "clock#date",
-    "clock#time",
+    "battery",
+    "clock",
     "custom/powermenu"
   ],
 
@@ -37,31 +40,10 @@
     "format": "{}"
   },
 
-  "clock#date": {
-    "format": "{:%A, %d %b}",
-    "tooltip-format": "<tt><small>{calendar}</small></tt>",
-    "calendar": {
-       "format": {
-         "today": "<span><b><b>{}</b></b></span>"
-          }
-      }
-  },
-
-  "clock#time": {
-    "format": "{:%H:%M}",
+  "clock": {
+    "format": "{:[%a %d %b - %H:%M]}",
     "tooltip": "false",
     "locale": "C"
-  },
-
-  "battery": {
-    "interval": 60,
-    "states": {
-        "warning": 30,
-        "critical": 15
-    },
-    "format": "{icon} {capacity}%",
-    "format-icons": ["", "", "", "", ""],
-    "max-length": 25
   },
 
   "bluetooth": {
@@ -74,29 +56,43 @@
   },
 
   "wireplumber": {
-    "format": "{icon} {volume}%",
-    "format-muted": "",
-    "format-icons": ["", "", ""],
-    "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
-    "tooltip": "false"
+    "format": "vol {volume}%",
+    "format-muted": "MUTED",
+    "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
   },
 
+  "memory": {
+    "interval": 5,
+    "format": "mem {percentage}%"
+  },
 
+  "cpu": {
+    "interval": 5,
+    "format": "cpu {usage}%"
+  },
+
+  "battery": {
+    "states": {
+      "good": 95,
+      "warning": 30,
+      "critical": 15
+    },
+    "format": "bat {capacity}%",
+  },
+	
+  "temperature": {
+    "interval": 5,
+    "format": "temp {temperatureC}°",
+    "hwmon-path": "/sys/class/hwmon/hwmon5/temp1_input"
+  },
+    
   "network": {
     "interface": "wlan0",
-    "format": "{icon}",
-    "format-alt": "{ipaddr}/{cidr} {icon}",
-    "format-alt-click": "click-right",
-    "format-icons": {
-      "wifi": [""],
-      "ethernet": [""],
-      "disconnected": [""]
-       },
-    "tooltip-format": "{ifname} via {gwaddr}",
-    "tooltip-format-wifi": "{essid} ({signalStrength}%)",
-    "tooltip-format-ethernet": "{ifname}",
-    "on-click": "iwgtk",
-    "tooltip": "false"
+    "format": "{ifname}",
+    "format-wifi": "wifi {essid}",
+    "format-ethernet": "eth enp0",
+    "format-disconnected": "", //An empty format will hide the module.
+    "max-length": 50
   },
 
   "custom/powermenu":{ 

@@ -47,7 +47,7 @@ if [ ! -S ${SSH_AUTH_SOCK} ]; then
     eval $(ssh-agent -a ${SSH_AUTH_SOCK} 2> /dev/null)
 fi
 
-export BEMENU_OPTS='-H 27 --fn "Iosevka Term 11" --nf "#666666" --nb "#000000" --sb "#000000" --sf "#ffffff" --tf "#af9dde" --hf "#ffffff" --af "#666666" --ab "#000000"' 
+export BEMENU_OPTS='-H 33 --fn "Iosevka Term 11" --nf "#666666" --nb "#000000" --sf "#ffffff" --sb "#000000" --tf "#af9dde" --tb "#000000" --hf "#ffffff" --hb "#000000" --af "#666666" --ab "#000000" --fb "#000000"' 
 
 export LESS=-R
 export LESS_TERMCAP_mb=$'\E[1;31m'     # begin blink

@@ -5,7 +5,8 @@ set $down j
 set $up k
 set $right l
 set $term foot
-set $menu bemenu-run -i -p ">" | xargs swaymsg exec --
+set $menu1 j4-dmenu-desktop --dmenu='bemenu -i -p ">"' | xargs swaymsg exec --
+set $menu2 bemenu-run -i -p ">" | xargs swaymsg exec --
 
 ### Output
 output * bg /home/emanuele/.local/wall.jpg fill
@@ -30,7 +31,8 @@ floating_modifier $mod normal
 
 bindsym $mod+Return exec $term
 bindsym $mod+q kill
-bindsym $mod+d exec $menu
+bindsym $mod+d exec $menu1
+bindsym $mod+Shift+d exec $menu2
 bindsym $mod+Shift+r reload
 bindsym $mod+Shift+e exec swaynag -t warning -m 'Power Menu options' -b 'Logout' 'swaymsg exit' - b 'Restart' 'loginctl reboot' -b 'Shutdown'  'loginctl poweroff'
 
@@ -172,9 +174,9 @@ for_window {
   [app_id="Firefox" title="Library"] floating enable
   [app_id="Firefox" title="Page Info*"] floating enable
   [app_id="Firefox" title="About Mozilla Firefox"] floating enable
-  [app_id="Thunar" title="^Copying.*"] floating enable
-  [app_id="Thunar" title="File Operation Progress"] floating enable
-  [app_id="Thunar" title="Confirm to replace files"] floating enable
+  [app_id="thunar" title="^Copying.*"] floating enable
+  [app_id="thunar" title="File Operation Progress"] floating enable
+  [app_id="thunar" title="Confirm to replace files"] floating enable
   [app_id="anki" title="Browse *"] floating enable
   [app_id="com.nextcloud.desktopclient.nextcloud"] floating enable
   [app_id="galculator"] floating enable

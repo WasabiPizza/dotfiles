@@ -1,9 +1,7 @@
 * {
     border: none;
-    border-radius: 0;
-    /* `otf-font-awesome` is required to be installed for icons */
     font-family: Iosevka Term, FontAwesome6FreeSolid;
-    font-size: 13px;
+    font-size: 14px;
     min-height: 0;
 }
 
@@ -18,68 +16,54 @@ window#waybar.hidden {
     opacity: 0.2;
 }
 
-/*
-window#waybar.empty {
-    background-color: transparent;
-}
-window#waybar.solo {
-    background-color: #FFFFFF;
-}
-
-window#waybar.termite {
-    background-color: #3F3F3F;
-}
-
-window#waybar.chromium {
-    background-color: #000000;
-    border: none;
-}
-*/
-
 #workspaces button {
-    background-color: transparent;
-    color: #ffffff;
+    background-color: #000000;
+    color: #e3dfdf;
     min-width: 0;
     padding: 5px 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-left: 2px;
 }
 
-/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
 #workspaces button:hover {
-    background: rgb(0, 0, 0);
+    background: #656565;
     box-shadow: inherit;
 }
 
 #workspaces button.focused {
-    color: #af9dde;
+    color: #e3dfdf;
+    background-color: #232323;
+    border-radius: 3px;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
 #workspaces button.urgent {
     background-color: #eb4d4b;
 }
 
-#mode {
-    background-color: #64727D;
-}
-
-#clock,
+#clock.date,
+#clock.time,
 #battery,
-#cpu,
-#memory,
 #bluetooth,
-#backlight,
 #network,
-#wireplumber,
-#pulseaudio,
-#custom-powermenu {
-    padding: 0 0;
-    margin-right: 16px;
+#wireplumber {
+    padding: 0 9px;
+    margin: 4px 4px;
     color: #e3dfdf;
+    background-color: #232323;
+    border-radius: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
-#temperature {
-    padding: 0 0;
-    margin-right: 12px;
-    color: #e3dfdf;
+#custom-powermenu {
+    color: #cacaca;
+    margin-left: 7px;
+    margin-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
 @keyframes blink {
@@ -87,11 +71,5 @@ window#waybar.chromium {
         background-color: #ffffff;
         color: #000000;
     }
-}
-
-#custom-powermenu {
-    margin-left: 4px;
-    margin-right: 10px;
-    color: #cacaca;
 }
 
