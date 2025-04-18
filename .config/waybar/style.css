@@ -1,0 +1,75 @@
+* {
+    border: none;
+    font-family: Iosevka Term, FontAwesome6FreeSolid;
+    font-size: 14px;
+    min-height: 0;
+}
+
+window#waybar {
+    background-color: #000000;
+    color: #e3dfdf;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+#workspaces button {
+    background-color: #000000;
+    color: #e3dfdf;
+    min-width: 0;
+    padding: 5px 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-left: 2px;
+}
+
+#workspaces button:hover {
+    background: #656565;
+    box-shadow: inherit;
+}
+
+#workspaces button.focused {
+    color: #e3dfdf;
+    background-color: #232323;
+    border-radius: 3px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+#workspaces button.urgent {
+    background-color: #eb4d4b;
+}
+
+#clock.date,
+#clock.time,
+#battery,
+#bluetooth,
+#network,
+#wireplumber {
+    padding: 0 9px;
+    margin: 4px 4px;
+    color: #e3dfdf;
+    background-color: #232323;
+    border-radius: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#custom-powermenu {
+    color: #cacaca;
+    margin-left: 7px;
+    margin-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: #000000;
+    }
+}
+
