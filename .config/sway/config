@@ -1,0 +1,214 @@
+### Variables
+set $mod Mod4
+set $left h
+set $down j
+set $up k
+set $right l
+set $term foot
+#set $menu2 wmenu-run -f "Iosevka Term 11"
+set $menu1 j4-dmenu-desktop --dmenu='bemenu -i -p ">"' 
+set $menu2 bemenu-run -i -p ">"
+
+### Output
+output * bg ~/.local/wall.jpg fill
+#output * bg #c5b3a7 solid_color 
+#output eDP-1 scale 2
+output eDP-1 color_profile icc ~/.local/profile.icm
+#output DP-2 resolution 3840x2160 position 0 1500 scale 2
+
+workspace 1 output eDP-1
+workspace 2 output eDP-1
+workspace 3 output eDP-1
+workspace 4 output eDP-1
+workspace 5 output eDP-1
+workspace 6 output eDP-1
+workspace 7 output eDP-1
+workspace 8 output eDP-1
+workspace 9 output DP-2
+
+### Dont idle on windows that are full screen
+for_window [class="^.*"] inhibit_idle fullscreen
+for_window [app_id="^.*"] inhibit_idle full
+
+### Input configuration
+input * xkb_layout "us"
+input * xkb_variant "intl"
+input * natural_scroll enabled
+input * scroll_factor 0.2
+input * click_method clickfinger
+input * middle_emulation enabled
+input * drag enabled
+input * tap enabled
+
+### Key bindings
+floating_modifier $mod normal
+
+bindsym $mod+Return exec $term
+bindsym $mod+q kill
+bindsym $mod+d exec $menu1
+bindsym $mod+Shift+d exec $menu2
+bindsym $mod+Shift+r reload
+bindsym $mod+Shift+e exec swaynag -t warning -m 'Power Menu options' -b 'Logout' 'swaymsg exit' - b 'Restart' 'loginctl reboot' -b 'Shutdown'  'loginctl poweroff'
+
+bindsym $mod+$left focus left
+bindsym $mod+$down focus down
+bindsym $mod+$up focus up
+bindsym $mod+$right focus right
+
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+bindsym $mod+Shift+$left move left
+bindsym $mod+Shift+$down move down
+bindsym $mod+Shift+$up move up
+bindsym $mod+Shift+$right move right
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+bindsym $mod+1 workspace number 1
+bindsym $mod+2 workspace number 2
+bindsym $mod+3 workspace number 3
+bindsym $mod+4 workspace number 4
+bindsym $mod+5 workspace number 5
+bindsym $mod+6 workspace number 6
+bindsym $mod+7 workspace number 7
+bindsym $mod+8 workspace number 8
+bindsym $mod+9 workspace number 9
+bindsym $mod+0 workspace number 10
+
+bindsym $mod+Shift+1 move container to workspace number 1
+bindsym $mod+Shift+2 move container to workspace number 2
+bindsym $mod+Shift+3 move container to workspace number 3
+bindsym $mod+Shift+4 move container to workspace number 4
+bindsym $mod+Shift+5 move container to workspace number 5
+bindsym $mod+Shift+6 move container to workspace number 6
+bindsym $mod+Shift+7 move container to workspace number 7
+bindsym $mod+Shift+8 move container to workspace number 8
+bindsym $mod+Shift+9 move container to workspace number 9
+bindsym $mod+Shift+0 move container to workspace number 10
+
+bindsym $mod+b splith
+bindsym $mod+v splitv
+bindsym $mod+s layout stacking
+bindsym $mod+e layout toggle split
+bindsym $mod+f fullscreen
+bindsym $mod+Shift+space floating toggle
+bindsym $mod+space focus mode_toggle
+bindsym $mod+a focus parent
+
+bindsym $mod+Shift+minus move scratchpad
+bindsym $mod+minus scratchpad show
+
+bindsym $mod+r mode "resize"
+mode "resize" {
+    bindsym $left resize shrink width 10px
+    bindsym $down resize grow height 10px
+    bindsym $up resize shrink height 10px
+    bindsym $right resize grow width 10px
+    bindsym Left resize shrink width 10px
+    bindsym Down resize grow height 10px
+    bindsym Up resize shrink height 10px
+    bindsym Right resize grow width 10px
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+
+### Gaps and borders
+default_border pixel 1
+gaps inner 5
+gaps outer 0
+smart_gaps on
+smart_borders no_gaps
+
+### Borders theme          border   backgr.  text     indicator child_border
+set $primary #dedd9d
+set $background #3e3e40
+
+client.focused           $primary $primary #ffffff $primary $primary
+client.focused_inactive  $background $background #ffffff $background $background
+client.unfocused         $background $background #ffffff $background $background
+
+### GTK3 settings
+set $gnome-schema org.gnome.desktop.interface
+
+exec_always {
+   gsettings set $gnome-schema cursor-theme "Adwaita"
+   gsettings set $gnome-schema text-scaling-factor "0.9"
+   gsettings set org.gnome.desktop.wm.preferences button-layout ""
+}
+
+seat seat0 xcursor_theme "Adwaita" 24
+
+### Custom shortcuts
+bindsym --locked XF86AudioRaiseVolume exec wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+
+bindsym --locked XF86AudioLowerVolume exec wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-
+bindsym --locked XF86AudioMute exec wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle
+bindsym --locked XF86AudioMicMute exec wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle
+bindsym --locked XF86MonBrightnessUp exec brillo -q -A 3
+bindsym --locked XF86MonBrightnessDown exec brillo -q -U 3
+bindsym Pause exec backlight.sh
+bindsym Print exec grim.sh
+bindsym Shift+Print exec grim_selection.sh
+bindsym $mod+c exec clipman pick -t bemenu
+bindsym $mod+Shift+c exec clipman clear -t bemenu
+#bindsym $mod+i exec sh -c 'if [ "$(ibus engine)" = "anthy" ]; then ibus engine xkb:us:alt-intl:eng; else ibus engine anthy; fi'
+
+### Autostart
+#exec dbus-update-activation-environment DISPLAY XAUTHORITY SWAYSOCK I3SOCK WAYLAND_DISPLAY
+exec pipewire
+exec waybar
+exec gammastep
+exec wl-paste -t text --watch clipman.sh
+exec autotiling
+exec mako
+exec kanshi
+exec darkman
+xwayland disable
+#exec swaylock -f -i /home/nero/.local/lock.jpg
+#exec nextcloud --background
+#exec ibus-daemon -dr
+#exec fcitx5 -d
+exec swayidle -w \
+          timeout 500 'swaylock -f -i ~/.local/lock.jpg' \
+          timeout 600 'swaymsg "output * power off"' \
+	  resume 'swaymsg "output * power on"' \
+          before-sleep 'playerctl pause; swaylock -f -i ~/.local/lock.jpg'
+
+### Default workspaces
+assign {
+  [app_id="chromium"]  1
+  [app_id="Thunderbird"]  4
+  [app_id="org.keepassxc.KeePassXC"]  5
+} 
+
+### Floating windows
+for_window {
+  #[app_id=".*"] floating enable
+  [title="(?:Open|Save) (?:File|Folder|As)"] floating enable
+  [title="Firefox — Sharing Indicator"] kill
+  [app_id="Firefox" title="Picture-in-Picture"] floating enable, resize set width 600 px height 300 px, move position 830 px 565 px, sticky enable
+  [app_id="Firefox" title="Library"] floating enable
+  [app_id="Firefox" title="Page Info*"] floating enable
+  [app_id="Firefox" title="About Mozilla Firefox"] floating enable
+  [app_id="thunar" title="^Copying.*"] floating enable
+  [app_id="thunar" title="File Operation Progress"] floating enable
+  [app_id="thunar" title="Confirm to replace files"] floating enable
+  [app_id="anki" title="Browse *"] floating enable
+  [app_id="com.nextcloud.desktopclient.nextcloud"] floating enable
+  [app_id="galculator"] floating enable
+  [app_id="org.keepassxc.KeePassXC" title="KeePassXC - Browser Access Request"] floating enable
+  [app_id="org.keepassxc.KeePassXC" title="KeePassXC - Access Request"] floating enable
+  [app_id="transmission-gtk" title="Torrent Options"] floating enable
+#  [app_id="Thunderbird" title="* Reminder"] floating enable
+}
+
+bindgesture swipe:right workspace prev 
+bindgesture swipe:left workspace next
+
+include /etc/sway/config.d/*
+
