@@ -5,16 +5,12 @@ set $down j
 set $up k
 set $right l
 set $term foot
-#set $menu2 wmenu-run -f "Iosevka Term 11"
 set $menu1 j4-dmenu-desktop --dmenu='bemenu -i -p ">"' 
 set $menu2 bemenu-run -i -p ">"
 
 ### Output
 output * bg ~/.local/wall.jpg fill
-#output * bg #c5b3a7 solid_color 
-#output eDP-1 scale 2
 output eDP-1 color_profile icc ~/.local/profile.icm
-#output DP-2 resolution 3840x2160 position 0 1500 scale 2
 
 workspace 1 output eDP-1
 workspace 2 output eDP-1
@@ -34,7 +30,7 @@ for_window [app_id="^.*"] inhibit_idle full
 input * xkb_layout "us"
 input * xkb_variant "intl"
 input * natural_scroll enabled
-input * scroll_factor 0.2
+#input * scroll_factor 0.2
 input * click_method clickfinger
 input * middle_emulation enabled
 input * drag enabled
@@ -134,13 +130,13 @@ client.focused_inactive  $background $background #ffffff $background $background
 client.unfocused         $background $background #ffffff $background $background
 
 ### GTK3 settings
-set $gnome-schema org.gnome.desktop.interface
-
-exec_always {
-   gsettings set $gnome-schema cursor-theme "Adwaita"
-   gsettings set $gnome-schema text-scaling-factor "0.9"
-   gsettings set org.gnome.desktop.wm.preferences button-layout ""
-}
+#set $gnome-schema org.gnome.desktop.interface
+#
+#exec_always {
+#   gsettings set $gnome-schema cursor-theme "Adwaita"
+#   gsettings set $gnome-schema text-scaling-factor "0.9"
+#   gsettings set org.gnome.desktop.wm.preferences button-layout ""
+#}
 
 seat seat0 xcursor_theme "Adwaita" 24
 
@@ -181,9 +177,7 @@ exec swayidle -w \
 
 ### Default workspaces
 assign {
-  [app_id="chromium"]  1
   [app_id="Thunderbird"]  4
-  [app_id="org.keepassxc.KeePassXC"]  5
 } 
 
 ### Floating windows
@@ -207,6 +201,7 @@ for_window {
 #  [app_id="Thunderbird" title="* Reminder"] floating enable
 }
 
+### Gestures
 bindgesture swipe:right workspace prev 
 bindgesture swipe:left workspace next
 
