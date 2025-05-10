@@ -30,6 +30,8 @@ alias q='exit'
 alias n='nnn -xeC'
 alias bashrc='vim ~/.bashrc && source ~/.bashrc'
 alias server='TERM=xterm-256color ssh server'
+alias mu='sudo wg-quick up it-mil-wg-001'
+alias md='sudo wg-quick down it-mil-wg-001'
 
 export PATH=$PATH:$HOME/.local/bin
 #export SVDIR=$HOME/.local/sv
@@ -49,7 +51,7 @@ fi
 
 export CHROME_FLAGS+="--js-flags=--jitless --enable-system-notifications --enable-features=TouchpadOverscrollHistoryNavigation,VaapiVideoDecoder,VaapiVideoEncoder --disable-features=UseChromeOSDirectVideoDecoder"
 
-export BEMENU_OPTS='-H 32 --fn "Iosevka Term 11" --nf "#666666" --nb "#000000" --sf "#ffffff" --sb "#000000" --tf "#af9dde" --tb "#000000" --hf "#ffffff" --hb "#000000" --af "#666666" --ab "#000000" --fb "#000000"'
+export BEMENU_OPTS='-H 32 --fn "Iosevka 11" --nf "#666666" --nb "#000000" --sf "#ffffff" --sb "#000000" --tf "#af9dde" --tb "#000000" --hf "#ffffff" --hb "#000000" --af "#666666" --ab "#000000" --fb "#000000"'
 
 export LESS=-R
 export LESS_TERMCAP_mb=$'\E[1;31m'     # begin blink
