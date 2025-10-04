@@ -8,6 +8,7 @@
   "modules-left": [ "sway/workspaces", "sway/window" ],
   "modules-center": [ ],
   "modules-right": [
+    "bluetooth",
     "wireplumber",
     "battery",
     "network",
@@ -34,7 +35,11 @@
   },
 
   "sway/window": {
-    "format": "{}"
+      "format": "{title}",
+      "max-length": 250,
+      "rewrite": {
+        "(.*) - Mozilla Firefox": "🌎 $1"
+      }
   },
 
   "clock#date": {
@@ -66,9 +71,11 @@
   },
 
   "bluetooth": {
-    "format": "bt {status}",
+    "format": "{icon}",
     "format-disabled": "", // an empty format will hide the module
-    "format-connected": "bt {num_connections} connected",
+    "format-connected": "{icon} on",
+    "format-icons": [""],
+    "on-click": "bluetoothctl power on && bluetoothctl scan on",
     "tooltip-format": "{controller_alias}\t{controller_address}",
     "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
     "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}"
@@ -102,7 +109,7 @@
 
   "custom/powermenu":{ 
     "format":"", 
-    "on-click": "swaynag -t warning -m 'Power Menu options' -b 'Logout' 'swaymsg exit' -b 'Restart' 'systemctl reboot' -b 'Suspend' 'systemctl suspend' -b 'Shutdown'  'systemctl poweroff'"
+    "on-click": "swaynag -t warning -m 'Power Menu options' -b 'Logout' 'swaymsg exit' -b 'Restart' 'loginctl reboot' -b 'Suspend' 'loginctl suspend' -b 'Shutdown'  'loginctl poweroff'"
   }
 
 }
