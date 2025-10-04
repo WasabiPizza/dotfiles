@@ -29,12 +29,20 @@ for_window [app_id="^.*"] inhibit_idle full
 ### Input configuration
 input * xkb_layout "us"
 input * xkb_variant "intl"
-input * natural_scroll enabled
-#input * scroll_factor 0.2
-input * click_method clickfinger
-input * middle_emulation enabled
-input * drag enabled
-input * tap enabled
+
+input type:touchpad {
+  natural_scroll enabled
+ #scroll_factor 0.2
+  click_method clickfinger
+  middle_emulation enabled
+  drag enabled
+  tap enabled
+}
+
+input type:pointer {
+  natural_scroll disabled
+  pointer_accel 0 
+}
 
 ### Key bindings
 floating_modifier $mod normal
